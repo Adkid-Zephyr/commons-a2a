@@ -115,3 +115,13 @@ The `frontend` branch is retained without importing its video hero.
 
 Frontend files: `app/page.tsx`, `app/globals.css`, `app/ui/`, and
 `public/spider/`. The `/demo` rewrite is in `next.config.mjs`.
+
+## Public judge edition (2026-10-22)
+
+Published at https://commons-a2a-london.laufs0310.chatgpt.site using ChatGPT Sites with public access.
+Source adapter: `site-source/`; exporter: `scripts/export-site.mjs`.
+The local Node/SQLite API and its loopback guard are unchanged. The hosted
+frontend routes its API-shaped calls to a browser-only, per-tab rehearsal
+service. New live calls and archived-run mutations are rejected. The export
+contains only fictional profiles and two signed historical model-run records.
+Spider is now English-only in both editions.

@@ -1,5 +1,12 @@
 # Commons — frozen hackathon submission
 
+**Online judge demo:** https://commons-a2a-london.laufs0310.chatgpt.site
+
+[Interactive Spider](https://commons-a2a-london.laufs0310.chatgpt.site/demo/) · [Online guide](https://commons-a2a-london.laufs0310.chatgpt.site/guide.html) · [Download guide](https://commons-a2a-london.laufs0310.chatgpt.site/guide.md).
+The public demonstration was added after the frozen submission tag. It runs
+rehearsals per visitor and replays actual model records without paid inference.
+
+
 **Save your attention. Make meaningful connections.**
 
 - Track: **Track 2 · Know Your Members — Members, intros & speakers**.

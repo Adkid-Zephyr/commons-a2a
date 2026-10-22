@@ -8,3 +8,6 @@ private-data/
 cursor-credits-claimed.png
 *.tsbuildinfo
 .submission/
+
+# Generated standalone Sites checkout and deployment archives
+.sites/

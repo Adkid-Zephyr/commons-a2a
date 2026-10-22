@@ -1,0 +1,1515 @@
+{
+  "dataset": "synthetic",
+  "sourceInfo": null,
+  "members": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Community organiser",
+      "context": "I organise small London builder meetups. I want practical talks with working demos.",
+      "goals": "Find a speaker on agent payments and introduce compatible builders.",
+      "skills": [
+        "community",
+        "events",
+        "agents"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA0lTbo0n4a4C3ps1RHNSLNyO0udB8yikCzT245qe03Fg=\n-----END PUBLIC KEY-----\n",
+      "synthetic": true,
+      "consent": true
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "role": "Payments builder",
+      "context": "Fictional fixture: built a testnet agent-payment demo. Can explain authorization and payment receipts.",
+      "goals": "Meet frontend collaborators and share practical agent payment experience.",
+      "skills": [
+        "payments",
+        "agents",
+        "backend"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "leo-demo",
+          "title": "Agent payment demo — fictional fixture",
+          "url": "https://example.com/fixtures/leo-payment-demo",
+          "summary": "Synthetic test case: authorization and receipts for agent payments.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARcKpmmwsR1YXNbMGZUISkFY5jvKHki2wMq8nV99mX3w=\n-----END PUBLIC KEY-----\n",
+      "synthetic": true,
+      "consent": true
+    },
+    {
+      "id": "amina",
+      "name": "Amina",
+      "role": "Frontend engineer",
+      "context": "Fictional fixture: builds accessible React interfaces for agent workflows.",
+      "goals": "Join a small project for two hours and meet backend builders.",
+      "skills": [
+        "frontend",
+        "react",
+        "agents"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "amina-ui",
+          "title": "Agent dashboard — fictional fixture",
+          "url": "https://example.com/fixtures/amina-dashboard",
+          "summary": "Synthetic test case: React UI for agent collaboration.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAx7pbo8Xr/trWRyjxWRnc7aznqTpccPmM4sYcbjOyH+w=\n-----END PUBLIC KEY-----\n",
+      "synthetic": true,
+      "consent": true
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar",
+      "role": "Protocol researcher",
+      "context": "Fictional fixture: researches payment authorization. Unavailable this week.",
+      "goals": "Share research later; no new meetings this week.",
+      "skills": [
+        "payments",
+        "agents",
+        "research"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "oscar-note",
+          "title": "Protocol note — fictional fixture",
+          "url": "https://example.com/fixtures/oscar-note",
+          "summary": "Synthetic test case: agent payment authorization research.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAot559QLQ7DIP6Hnc1rO8VD31XERI1vkb/tY6W3AwKNg=\n-----END PUBLIC KEY-----\n",
+      "synthetic": true,
+      "consent": true
+    },
+    {
+      "id": "jin",
+      "name": "Jin",
+      "role": "Curious learner",
+      "context": "Interested in agent payments. No verified project yet; just following along.",
+      "goals": "Learn from relevant resources without networking or meeting requests.",
+      "skills": [
+        "payments",
+        "agents",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEASzpuSyITSEqtUztnFWeN6c3ZE8tBW3Z/rC1XwmRv1bM=\n-----END PUBLIC KEY-----\n",
+      "synthetic": true,
+      "consent": true
+    },
+    {
+      "id": "fixture-climate-1",
+      "name": "Nora",
+      "role": "Climate data organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about an open energy-use dashboard. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate an open energy-use dashboard.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWmqvi+FTB3bpVJD8sEvMKWWE9SFf8Ha+lizAXKWYDa4=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-climate-2",
+      "name": "Elias",
+      "role": "Climate data builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an open energy-use dashboard. No real project or real person is represented.",
+      "goals": "Help with data visualization for up to two hours.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-climate-2-example",
+          "title": "Climate data prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-climate-2",
+          "summary": "Synthetic an open energy-use dashboard example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAHwkOgVopDVBXFiFwRQmCxuFTLe0RP6d61xh/uI3FKo4=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-climate-3",
+      "name": "Sana",
+      "role": "Climate data researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an open energy-use dashboard. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-climate-3-example",
+          "title": "Climate data prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-climate-3",
+          "summary": "Synthetic an open energy-use dashboard example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAWx5oVA3FCM44CTNHbiq6qw+YvPpN9QZPfgUl3RIbb1w=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-climate-4",
+      "name": "Theo",
+      "role": "Climate data newcomer",
+      "context": "Fictional demonstration profile. Is learning to build an open energy-use dashboard. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPlaKk9PvLweoNLAPmweGw4sUHiFa24NoTVrTHx2u18k=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-climate-5",
+      "name": "Iris",
+      "role": "Climate data learner",
+      "context": "Fictional demonstration profile. Follows resources about an open energy-use dashboard. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyqVYDbCXXRDK7EAKo991uqqe/W84wpN/atK5aiTj6d4=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-accessibility-1",
+      "name": "Luca",
+      "role": "Accessible interfaces organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a keyboard-first community directory. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a keyboard-first community directory.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA1+4fJOaK7/j7NmJ3ENMLsDYOUEKRKXsVkt5yHNrvK44=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-accessibility-2",
+      "name": "Mei",
+      "role": "Accessible interfaces builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a keyboard-first community directory. No real project or real person is represented.",
+      "goals": "Help with accessible UI for up to two hours.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-accessibility-2-example",
+          "title": "Accessible interfaces prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-accessibility-2",
+          "summary": "Synthetic a keyboard-first community directory example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAY81Y81HIPAEYei1FRM0QRMbwU3hu/rhUxlt5HmD+IMk=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-accessibility-3",
+      "name": "Amir",
+      "role": "Accessible interfaces researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a keyboard-first community directory. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-accessibility-3-example",
+          "title": "Accessible interfaces prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-accessibility-3",
+          "summary": "Synthetic a keyboard-first community directory example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAFLCke9UQyWrKqRvC24NwF0EieNSkgUtT56kJDFPG8p4=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-accessibility-4",
+      "name": "Zoe",
+      "role": "Accessible interfaces newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a keyboard-first community directory. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAGXrE/nNDVUDJjTJRTZqUriLekgd0bu8PJX4kNXdEp7U=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-accessibility-5",
+      "name": "Ben",
+      "role": "Accessible interfaces learner",
+      "context": "Fictional demonstration profile. Follows resources about a keyboard-first community directory. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQZt9z+SR6FCj4u+Jsxw3EFNrRRKrb0y1GquBt6hN9G4=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-privacy-1",
+      "name": "Ada",
+      "role": "Private AI organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a local document assistant. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a local document assistant.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAoy8oSUorgfx3m8G1jStZUIFu5rH41FzVycklC6OAqLg=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-privacy-2",
+      "name": "Ravi",
+      "role": "Private AI builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a local document assistant. No real project or real person is represented.",
+      "goals": "Help with private inference for up to two hours.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-privacy-2-example",
+          "title": "Private AI prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-privacy-2",
+          "summary": "Synthetic a local document assistant example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA+sQGecOeQzUeFGgzVoRyb+8NoxP+KDKCU8ibOdPeQN4=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-privacy-3",
+      "name": "Lina",
+      "role": "Private AI researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a local document assistant. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-privacy-3-example",
+          "title": "Private AI prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-privacy-3",
+          "summary": "Synthetic a local document assistant example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAiF5OTJWlaxd727BeoL81AWVt62UgSEepmvAiqgWPhBI=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-privacy-4",
+      "name": "Hugo",
+      "role": "Private AI newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a local document assistant. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxwvqbR6zgrPcZSKHdrNRCwiVTEmy19r/wEww0w4Wwvo=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-privacy-5",
+      "name": "Eva",
+      "role": "Private AI learner",
+      "context": "Fictional demonstration profile. Follows resources about a local document assistant. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMTs0Q0NtDumpPvhuiNI7/CDv3Og4r8otK5nhQOu0xf0=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-robotics-1",
+      "name": "Omar",
+      "role": "Robotics organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a tabletop robot simulator. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a tabletop robot simulator.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAMWR4EmLRGcv7e/lZlo+dFwLzn7EwTCDEDmPrYmjOpiA=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-robotics-2",
+      "name": "Tessa",
+      "role": "Robotics builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a tabletop robot simulator. No real project or real person is represented.",
+      "goals": "Help with simulation for up to two hours.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-robotics-2-example",
+          "title": "Robotics prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-robotics-2",
+          "summary": "Synthetic a tabletop robot simulator example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAR3WGQOiDDpM8cEbO/0Kv4Ayb/8HTSF5J0aJDWTk0hOM=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-robotics-3",
+      "name": "Noah",
+      "role": "Robotics researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a tabletop robot simulator. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-robotics-3-example",
+          "title": "Robotics prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-robotics-3",
+          "summary": "Synthetic a tabletop robot simulator example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAq6PCDEH+G32FCNVLuROp6038sTz4GcePm2KWewbFg68=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-robotics-4",
+      "name": "Yuna",
+      "role": "Robotics newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a tabletop robot simulator. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAVGcNhEdVZAAQPJt+oSu/UOwCIeeg0f5x3T87pedZ3oc=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-robotics-5",
+      "name": "Finn",
+      "role": "Robotics learner",
+      "context": "Fictional demonstration profile. Follows resources about a tabletop robot simulator. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA0edJHtInfyEu2RWrhxoVCxgbH+8nqg2UJZPVDcTWWWg=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-education-1",
+      "name": "Aria",
+      "role": "Learning tools organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a peer-learning planner. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a peer-learning planner.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAEqRQj/c+aY+9yVrwjmpUzUD3curTZnQ3AYd+J04BY6c=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-education-2",
+      "name": "Milo",
+      "role": "Learning tools builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a peer-learning planner. No real project or real person is represented.",
+      "goals": "Help with learning design for up to two hours.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-education-2-example",
+          "title": "Learning tools prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-education-2",
+          "summary": "Synthetic a peer-learning planner example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA6bthnYR+StuAzy7oMo/zFYbTbgRzJEg+6j+RAA4mGW8=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-education-3",
+      "name": "Priya",
+      "role": "Learning tools researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a peer-learning planner. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-education-3-example",
+          "title": "Learning tools prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-education-3",
+          "summary": "Synthetic a peer-learning planner example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEANzHdc9yoyyDNH27UuPA9nzUVgf2pVvR8DQ0sEz0sKK8=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-education-4",
+      "name": "Leon",
+      "role": "Learning tools newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a peer-learning planner. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAIJ4y7atbOEjq3E3PbnmvxKH82mWmOvI4I2w8qtaGhPA=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-education-5",
+      "name": "Ruby",
+      "role": "Learning tools learner",
+      "context": "Fictional demonstration profile. Follows resources about a peer-learning planner. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "education",
+        "learning design",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARbfwgeyraEjIMe5icP4RPvGzHf9S/yZd75k625mPHN0=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-data-tools-1",
+      "name": "Jules",
+      "role": "Data tooling organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about an event-data quality checker. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate an event-data quality checker.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAvaPDTDzZcNU4v/4MHF4uVETAsYpEqOKVIVaYjFKAOKw=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-data-tools-2",
+      "name": "Nia",
+      "role": "Data tooling builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an event-data quality checker. No real project or real person is represented.",
+      "goals": "Help with data pipelines for up to two hours.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-data-tools-2-example",
+          "title": "Data tooling prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-data-tools-2",
+          "summary": "Synthetic an event-data quality checker example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAhT3HrhJ09fprvhCnmcgEttvwMwV1lORC7NUa/ysjJCs=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-data-tools-3",
+      "name": "Kai",
+      "role": "Data tooling researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an event-data quality checker. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-data-tools-3-example",
+          "title": "Data tooling prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-data-tools-3",
+          "summary": "Synthetic an event-data quality checker example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAXI7djvVbPzFPpEYrFGm+U4QAqaC5FyE/wMgxqPLYqJo=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-data-tools-4",
+      "name": "Esme",
+      "role": "Data tooling newcomer",
+      "context": "Fictional demonstration profile. Is learning to build an event-data quality checker. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA00+NYn0a2Lk//8Nn6qJ0/AeMe1E4pFRHn/h7a/6RPh8=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-data-tools-5",
+      "name": "Dara",
+      "role": "Data tooling learner",
+      "context": "Fictional demonstration profile. Follows resources about an event-data quality checker. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAPcp+MumMwTC1w1TowaLBMSq/61YT3N74mJK3JD6yWm0=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-community-ops-1",
+      "name": "Anya",
+      "role": "Community operations organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about an accessible event run-sheet. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate an accessible event run-sheet.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAyzv84NBnfNqPTImSLKtpElibBOIHxrayXNdDrA8/STo=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-community-ops-2",
+      "name": "Remy",
+      "role": "Community operations builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an accessible event run-sheet. No real project or real person is represented.",
+      "goals": "Help with event operations for up to two hours.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-community-ops-2-example",
+          "title": "Community operations prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-community-ops-2",
+          "summary": "Synthetic an accessible event run-sheet example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAY+AFPa6I3hdVJfFffA/gaSdbsMY9bJ0txAohRJDbZkE=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-community-ops-3",
+      "name": "Sofia",
+      "role": "Community operations researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an accessible event run-sheet. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-community-ops-3-example",
+          "title": "Community operations prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-community-ops-3",
+          "summary": "Synthetic an accessible event run-sheet example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA31S0oLwGvZOkEQQBdvE9lG/DPzRhVJHOpX6EPE3i4WI=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-community-ops-4",
+      "name": "Ezra",
+      "role": "Community operations newcomer",
+      "context": "Fictional demonstration profile. Is learning to build an accessible event run-sheet. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA4IUzdygaYbdmI4jVxwpOBz14Do2xkpi2WnaM8TFKCjc=\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "id": "fixture-community-ops-5",
+      "name": "Cleo",
+      "role": "Community operations learner",
+      "context": "Fictional demonstration profile. Follows resources about an accessible event run-sheet. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true,
+      "secretKey": null,
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA2GENGOMzNU0o8fXe3QehbfFZMAcHus9RqoPeI3/e2ME=\n-----END PUBLIC KEY-----\n"
+    }
+  ],
+  "requests": [
+    {
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Live test: a practical agent payments speaker",
+      "details": "London builders meetup, Thursday 29 October 2026, 18:30 London time. A 20-minute practical talk on authorization and payment receipts, then 10 minutes of questions. We need a testnet demo, not investment advice. Final date and participation require both owners to approve.",
+      "topics": [
+        "payments",
+        "agents"
+      ],
+      "mode": "live",
+      "idempotencyKey": "7ff1c2ff-ec79-474d-81ff-b3535839418f",
+      "sourceUrl": "",
+      "authorized": true,
+      "id": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "createdAt": "2026-10-22T19:07:22.470Z",
+      "status": "completed"
+    },
+    {
+      "ownerId": "leo",
+      "kind": "collaborator",
+      "title": "Demo: find a React accessibility collaborator",
+      "details": "A two-hour collaboration to improve keyboard navigation and screen-reader labels on the existing authorization and receipt screens of an agent payment demo. No backend changes, no new payment features, no ongoing maintenance. Time and participation require both owners to confirm.",
+      "topics": [
+        "frontend",
+        "react"
+      ],
+      "mode": "live",
+      "idempotencyKey": "d8e522c1-87c5-46c1-8308-4d8044790cbf",
+      "sourceUrl": "",
+      "authorized": true,
+      "id": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "createdAt": "2026-10-22T20:23:35.239Z",
+      "status": "completed",
+      "demoRun": true,
+      "demoScenario": "collaborator"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "ownerId": "maya",
+      "candidateId": "leo",
+      "createdAt": "2026-10-22T19:07:22.471Z",
+      "status": "awaiting_approval",
+      "turns": 2,
+      "approvals": {
+        "maya": "approved",
+        "leo": "pending"
+      },
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "summary": "Maya, this slot fits what I can actually offer: a practical 20-minute talk on authorization and payment receipts, plus questions, using the synthetic testnet agent-payment fixture I already have — not investment advice and not independently verified production work. I’m generally available and would like to share that with London builders and meet frontend collaborators. I can’t confirm Thursday 29 October 2026 at 18:30 myself; the date and my participation still need both owners’ approval."
+    },
+    {
+      "id": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "ownerId": "maya",
+      "candidateId": "amina",
+      "createdAt": "2026-10-22T19:07:41.443Z",
+      "status": "declined",
+      "turns": 2,
+      "approvals": {
+        "maya": "pending",
+        "amina": "pending"
+      },
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "summary": "Thanks for thinking of me, Maya. I’m a frontend engineer focused on accessible React interfaces for agent workflows, and my only related item is a synthetic fixture dashboard for agent collaboration—not hands-on work on authorization, payment receipts, or a testnet payments demo. A 20-minute practical payments talk would be outside my expertise, so I should pass on this slot."
+    },
+    {
+      "id": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "ownerId": "maya",
+      "candidateId": "oscar",
+      "createdAt": "2026-10-22T19:07:51.797Z",
+      "status": "declined",
+      "turns": 2,
+      "approvals": {
+        "maya": "pending",
+        "oscar": "pending"
+      },
+      "evidenceIds": [
+        "oscar-note"
+      ],
+      "summary": "Thanks for the clear brief, Maya. I research payment authorization, but only as a fictional fixture note, and I do not have evidence of a working testnet demo I could show. I am unavailable and not taking new meetings this week, so I should decline this speaker slot rather than leave the date or a demo looking confirmed."
+    },
+    {
+      "id": "c7a7a525-057d-468a-a591-569ee3954c53",
+      "requestId": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "ownerId": "leo",
+      "candidateId": "amina",
+      "createdAt": "2026-10-22T20:23:35.246Z",
+      "status": "awaiting_approval",
+      "turns": 2,
+      "approvals": {
+        "leo": "pending",
+        "amina": "pending"
+      },
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "summary": "Hi Leo — this two-hour pass fits what I do in this fixture: accessible React interfaces for agent workflows, limited to keyboard navigation and screen-reader labels on the existing authorization and receipt screens. I am not taking on backend changes, new payment features, or ongoing maintenance. My agent-dashboard evidence is synthetic fixture material, not independently verified work. I am generally available and would like to meet you as a payments builder, but a specific time and participation still need both owners to confirm before anything is scheduled."
+    }
+  ],
+  "events": [
+    {
+      "id": "d46559d6-9cc7-436f-bcb3-1826d5ce7b00",
+      "seq": 28,
+      "at": "2026-10-22T19:07:22.472Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "maya",
+      "to": "leo",
+      "type": "executing",
+      "message": "Maya's agent is processing its own context.",
+      "mode": "live",
+      "signature": "v0Shvgq06sig25lTgpSKg02HkH7LTLs7qEup1adQPKr18lvBF2sZU9WY35pwYu7j9956a5ST7g5VEAdZHnf5Bw=="
+    },
+    {
+      "id": "5fabb1ba-c5c1-4cab-b017-9651199f21b9",
+      "seq": 29,
+      "at": "2026-10-22T19:07:27.462Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "maya",
+      "to": "leo",
+      "type": "inquiry",
+      "message": "Leo, Maya organises small London builder meetups and is looking for a practical speaker on agent payments. The slot is Thursday 29 October 2026 at 18:30 London time: a 20-minute talk on authorization and payment receipts, with a working testnet demo (not investment advice), then 10 minutes of questions. Would you be interested and able to do that, and do you already have a testnet demo you could show? Final date and participation would still need both owners to approve.",
+      "reason": "Inquiry to the payments builder about the meetup speaker request, without treating Maya as the candidate.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "71f9cc6b-60f8-4911-b0f0-2bbc61e2b613",
+        "providerId": "44e69a68-cb3b-9999-8293-6de2c8c09dcc",
+        "startedAt": "2026-10-22T19:07:22.472Z",
+        "durationMs": 4990,
+        "inputHash": "9999e95f6db61b04406337e9af4d2618a93082416fc427b0f2e4f08d8d92b812",
+        "agentId": "maya",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 493,
+        "total_tokens": 2273,
+        "prompt_tokens": 1780,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 353
+        }
+      },
+      "signature": "yOKo7icP6S3oREnqh6ZMDyv0+BSYFATkUULvGdbTEUeoMktrosyymkVceIZZgpUzhQqUaJWXcW9wv8352AsWBg=="
+    },
+    {
+      "id": "acd0e5ad-60c4-4d63-aed7-b6eccd8c5716",
+      "seq": 30,
+      "at": "2026-10-22T19:07:27.463Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "leo",
+      "to": "maya",
+      "type": "executing",
+      "message": "Leo's agent is processing its own context.",
+      "mode": "live",
+      "signature": "iI4uuCI9Hy5l+s0Rcg7ocZOzIEVAVpOCuv9N3iox2gjJ/R9ILgyY3AuJLNDFoRZVDjChMCUs91MJ/3131OYSBw=="
+    },
+    {
+      "id": "6b649e74-fd75-4db9-99d8-93e77bec0219",
+      "seq": 31,
+      "at": "2026-10-22T19:07:41.442Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "leo",
+      "to": "maya",
+      "type": "proposal",
+      "message": "Maya, this slot fits what I can actually offer: a practical 20-minute talk on authorization and payment receipts, plus questions, using the synthetic testnet agent-payment fixture I already have — not investment advice and not independently verified production work. I’m generally available and would like to share that with London builders and meet frontend collaborators. I can’t confirm Thursday 29 October 2026 at 18:30 myself; the date and my participation still need both owners’ approval.",
+      "reason": "Topic, demo, and goals match; specific date left to owner approval.",
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "0f4665fb-e642-48f5-897c-ec7924985e85",
+        "providerId": "dbb0bb63-e525-9e1b-bc54-4949f2eba699",
+        "startedAt": "2026-10-22T19:07:27.464Z",
+        "durationMs": 13978,
+        "inputHash": "f0a59e3c7b389bd2986395b51332d24b239172fcc59e3fdf6455b8f7736042bb",
+        "agentId": "leo",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 1403,
+        "total_tokens": 3361,
+        "prompt_tokens": 1958,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1270
+        }
+      },
+      "signature": "ujEHvjkPMUihTDjbtMSYK3WEo3qN6OOhfd9+3e/0xu80iQ25jIWJOryORR3WBzdZV/pBdtFfCIhqAijmhyHYAg=="
+    },
+    {
+      "id": "f0be3ae4-88a1-4943-b277-61f024db10b6",
+      "seq": 32,
+      "at": "2026-10-22T19:07:41.443Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "type": "awaiting_approval",
+      "message": "Outcome: awaiting_approval. Both owners must approve the exact proposal.",
+      "mode": "live"
+    },
+    {
+      "id": "ea1bba66-98cf-4aa7-a246-14c1deb1273f",
+      "seq": 33,
+      "at": "2026-10-22T19:07:41.444Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "maya",
+      "to": "amina",
+      "type": "executing",
+      "message": "Maya's agent is processing its own context.",
+      "mode": "live",
+      "signature": "MwhcUM+ULRH6Md2Mfse5D67DtQ1LU+Hpv5S82dHaQwSzy5TEgfh3h5pwYwqIKrOX/JDd2ojf8QDWmGEu7Nq7Aw=="
+    },
+    {
+      "id": "faa1c402-66f7-419d-bdbe-ea085aa4b806",
+      "seq": 34,
+      "at": "2026-10-22T19:07:47.205Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "maya",
+      "to": "amina",
+      "type": "inquiry",
+      "message": "Hi Amina — I’m Maya, and I organise small London builder meetups. I’m looking for a practical speaker for Thursday 29 October 2026 at 18:30 London time: a 20-minute talk on authorization and payment receipts for agents, with a working testnet demo (not investment advice), then about 10 minutes of questions. Final date and participation would still need both owners to approve. Do you have hands-on experience with agent payments and a demo you could show, and would you be interested in this slot?",
+      "reason": "Inquiry to Amina about the supplied speaker request; no candidate evaluation or commitments.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "585b98e1-b276-487a-8b02-6792abda661c",
+        "providerId": "87df64f3-df6f-9972-8b32-c195c14b921c",
+        "startedAt": "2026-10-22T19:07:41.444Z",
+        "durationMs": 5761,
+        "inputHash": "988c4e6bd9b1249b7d317e3dcbb622effb1d025783b914381ae6accba9ae0ad6",
+        "agentId": "maya",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 615,
+        "total_tokens": 2396,
+        "prompt_tokens": 1781,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 472
+        }
+      },
+      "signature": "uzpDTnFl32R4/1lPZiFKAFFAhh9z1OX+qtHYB0iOlg2xySZVoNDdIJ/S5Tfo2+uyr1k8bZ1DHc75q0rTgad1DA=="
+    },
+    {
+      "id": "8fa81cb8-bdbc-4752-88cb-13c38f6bef60",
+      "seq": 35,
+      "at": "2026-10-22T19:07:47.206Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "amina",
+      "to": "maya",
+      "type": "executing",
+      "message": "Amina's agent is processing its own context.",
+      "mode": "live",
+      "signature": "GrXDlD1HnwiM3tkLMCXUVeUxexUwyINrt1Z1VdBfY2Dos+iAUL6oms9EK/EAPhR1Q2XPunQ2eu76xe1ijfssBw=="
+    },
+    {
+      "id": "5567d8f0-d1b4-48d7-bb7f-a31108ae28f0",
+      "seq": 36,
+      "at": "2026-10-22T19:07:51.795Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "amina",
+      "to": "maya",
+      "type": "decline",
+      "message": "Thanks for thinking of me, Maya. I’m a frontend engineer focused on accessible React interfaces for agent workflows, and my only related item is a synthetic fixture dashboard for agent collaboration—not hands-on work on authorization, payment receipts, or a testnet payments demo. A 20-minute practical payments talk would be outside my expertise, so I should pass on this slot.",
+      "reason": "Primary topic is agent payments and a testnet demo; Amina’s fixture evidence and skills are frontend React agent UI only.",
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "7001378f-462a-4876-b2b3-458f26b7f6a1",
+        "providerId": "a550f69b-8bfd-9518-9aa3-2384d4c1446f",
+        "startedAt": "2026-10-22T19:07:47.207Z",
+        "durationMs": 4588,
+        "inputHash": "97d1d99c999b572050254f735023de50ebb0350bf7ad183115b8cfdcc7d85066",
+        "agentId": "amina",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 491,
+        "total_tokens": 2445,
+        "prompt_tokens": 1954,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 369
+        }
+      },
+      "signature": "zYrmFq20TlzuYRovq42By2f8tpL0OApSCjUF0eZnRuwUSFnin3G4i/ROvWiTAvPB0W0sRysFvwbJg+Xq+f+1CA=="
+    },
+    {
+      "id": "158eeba5-023f-4676-9b8f-34a711a26ce1",
+      "seq": 37,
+      "at": "2026-10-22T19:07:51.796Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "type": "declined",
+      "message": "Outcome: declined. No introduction created.",
+      "mode": "live"
+    },
+    {
+      "id": "5e28724f-a875-4fdd-ba82-5b00f4e88b1a",
+      "seq": 38,
+      "at": "2026-10-22T19:07:51.797Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "maya",
+      "to": "oscar",
+      "type": "executing",
+      "message": "Maya's agent is processing its own context.",
+      "mode": "live",
+      "signature": "xRaDXmMi+x7yOgHx+liwwRS9kfdoVXMbmvzrVIR5bvQFPDGqohYIQFaTKmuu1j9+/O7ZYKrbdpqLOwsS10u0DQ=="
+    },
+    {
+      "id": "54c9f794-5139-4469-b3d8-5c62c3585f57",
+      "seq": 39,
+      "at": "2026-10-22T19:07:56.294Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "maya",
+      "to": "oscar",
+      "type": "inquiry",
+      "message": "Oscar, I’m looking for a speaker for a small London builders meetup on Thursday 29 October 2026 at 18:30 London time: a 20-minute practical talk on authorization and payment receipts, then 10 minutes of questions, with a testnet demo rather than investment advice. Final date and participation would still need both owners to approve. Would you be open to that format, and do you have a working testnet demo you could show?",
+      "reason": "Inquiring whether Oscar can give the requested practical agent-payments talk and demo.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "7d82f176-f886-437e-8c51-7b21646a9a01",
+        "providerId": "e541a819-f403-9014-9eca-57f8c73fd945",
+        "startedAt": "2026-10-22T19:07:51.797Z",
+        "durationMs": 4497,
+        "inputHash": "76d246d4a6677c953f1818c6271d52921c3de1140f9819dcf415f383e17ad72a",
+        "agentId": "maya",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 364,
+        "total_tokens": 2144,
+        "prompt_tokens": 1780,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 238
+        }
+      },
+      "signature": "z7TgF5YnipGjAiybo4e6RRHr1fzc+BHywHfdTh8IKry7nH401r+bl20h5YW1MU8E5eL2HflKKdjMTNzNq/PLCA=="
+    },
+    {
+      "id": "6ea8420c-56ce-4625-b3d5-f79b906b4817",
+      "seq": 40,
+      "at": "2026-10-22T19:07:56.296Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "oscar",
+      "to": "maya",
+      "type": "executing",
+      "message": "Oscar's agent is processing its own context.",
+      "mode": "live",
+      "signature": "5U5m5Z59fsEx0oGmwefRtHB132pnQQI+EXjd/8oU8mWgrfRtBXarnjZh9TFAztJGTmh6oHAg4cGG5WftxXY6BQ=="
+    },
+    {
+      "id": "37a56297-9aa0-4837-b157-e4fbbece60a9",
+      "seq": 41,
+      "at": "2026-10-22T19:08:06.747Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "oscar",
+      "to": "maya",
+      "type": "decline",
+      "message": "Thanks for the clear brief, Maya. I research payment authorization, but only as a fictional fixture note, and I do not have evidence of a working testnet demo I could show. I am unavailable and not taking new meetings this week, so I should decline this speaker slot rather than leave the date or a demo looking confirmed.",
+      "reason": "Unavailable this week, with no fixture evidence of a testnet demo to commit.",
+      "evidenceIds": [
+        "oscar-note"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "c6f119a7-2ab8-4dd8-9dad-17b9457fca2b",
+        "providerId": "3c4bd86f-5a6c-95d6-8729-a8659ba1e943",
+        "startedAt": "2026-10-22T19:07:56.297Z",
+        "durationMs": 10450,
+        "inputHash": "dfedd0b939b90252914821f2c5f466b201fda3f8ede1d821dffcb87a968a6be1",
+        "agentId": "oscar",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 1096,
+        "total_tokens": 3029,
+        "prompt_tokens": 1933,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 992
+        }
+      },
+      "signature": "3GI5CcDg2yy4ntsbGplgNfRWWZHz1WZ58AQhctKq43PclYtH6425g2PaLThjAFXZZ/+M0nRdvA8vUqXuF0z9CA=="
+    },
+    {
+      "id": "0b1fcf05-7286-441e-8033-165b5886b8b6",
+      "seq": 42,
+      "at": "2026-10-22T19:08:06.749Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "type": "declined",
+      "message": "Outcome: declined. No introduction created.",
+      "mode": "live"
+    },
+    {
+      "id": "a7aa332d-00ee-4290-aa8d-fccfb8f02ca1",
+      "seq": 43,
+      "at": "2026-10-22T19:08:06.750Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "from": "jin",
+      "to": "jin",
+      "type": "digest",
+      "message": "Saved “Live test: a practical agent payments speaker” for Jin. Information-only preference respected; no outreach.",
+      "mode": "live",
+      "signature": "RqW+UoDRlD9RXnxSNPXAkjo+Fdk1MRKc4XQ0QaReo0uZNK1DVFVFCX8f9EmKmluf+hh5UpPk7y5BGqwdQAQ5BQ=="
+    },
+    {
+      "id": "47d5becb-2e85-4f66-9e7d-f7b5657ae97d",
+      "seq": 105,
+      "at": "2026-10-22T20:23:35.248Z",
+      "requestId": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "sessionId": "c7a7a525-057d-468a-a591-569ee3954c53",
+      "from": "leo",
+      "to": "amina",
+      "type": "executing",
+      "message": "Leo's agent is processing its own context.",
+      "mode": "live",
+      "signature": "cxXTXGiQVhmuihwlNEQpqM2upqy4Udu2NexR2mFDkYMPW/DB+8dq7OKTJyxbyaHss5dTsb6KnWOQ57xXGtLfAQ=="
+    },
+    {
+      "id": "63ae7c98-b0b4-4b7c-a117-9d336c3ebdaf",
+      "seq": 106,
+      "at": "2026-10-22T20:23:41.778Z",
+      "requestId": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "sessionId": "c7a7a525-057d-468a-a591-569ee3954c53",
+      "from": "leo",
+      "to": "amina",
+      "type": "inquiry",
+      "message": "Hi Amina — I’m Leo. This is a fictional fixture demo, not independently verified work: authorization and payment-receipt screens for an agent-payment testnet. I’m looking for a two-hour React accessibility collaboration to improve keyboard navigation and screen-reader labels on those existing screens only. No backend changes, no new payment features, and no ongoing maintenance; time and participation would still need both owners to confirm. Do you work on React accessibility for keyboard and screen-reader labeling, and would a short scoped pass like that be something you’d consider?",
+      "reason": "Asking Amina about React accessibility fit for the stated two-hour screen-only scope, without evaluating myself as the candidate.",
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "b9260036-8f17-4a2c-b075-6b4f021bacc5",
+        "providerId": "23ea035a-41f0-96f5-9947-087cc406f55a",
+        "startedAt": "2026-10-22T20:23:35.250Z",
+        "durationMs": 6528,
+        "inputHash": "f4cd49dab53d4c6df5040058af722628cc27bc15cb9043ab413292cefc462bda",
+        "agentId": "leo",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 699,
+        "total_tokens": 2581,
+        "prompt_tokens": 1882,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 542
+        }
+      },
+      "signature": "M79OyTNvL+UFjoyhJQvBcKBVNLFf+nVtsT2z2g7T2032/fg6zuZl/fKwIyoj5ewyGJ2InwgJ66fIxROUHEvCDQ=="
+    },
+    {
+      "id": "84a4eff9-dad3-441e-bef9-a33cf60d549f",
+      "seq": 107,
+      "at": "2026-10-22T20:23:41.781Z",
+      "requestId": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "sessionId": "c7a7a525-057d-468a-a591-569ee3954c53",
+      "from": "amina",
+      "to": "leo",
+      "type": "executing",
+      "message": "Amina's agent is processing its own context.",
+      "mode": "live",
+      "signature": "q7JuMkKp5dF/MfrqtpSwvxMqjbMqJqWd574+HGJV/S1uXn6TlwvyJC+Y7qspEwX6hivZZNmC5OR9svrCNxOYAw=="
+    },
+    {
+      "id": "2e14e012-6395-42df-beea-50df934cfe25",
+      "seq": 108,
+      "at": "2026-10-22T20:23:49.493Z",
+      "requestId": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "sessionId": "c7a7a525-057d-468a-a591-569ee3954c53",
+      "from": "amina",
+      "to": "leo",
+      "type": "proposal",
+      "message": "Hi Leo — this two-hour pass fits what I do in this fixture: accessible React interfaces for agent workflows, limited to keyboard navigation and screen-reader labels on the existing authorization and receipt screens. I am not taking on backend changes, new payment features, or ongoing maintenance. My agent-dashboard evidence is synthetic fixture material, not independently verified work. I am generally available and would like to meet you as a payments builder, but a specific time and participation still need both owners to confirm before anything is scheduled.",
+      "reason": "Scoped two-hour React accessibility request matches Amina’s fixture profile, goals, and general availability; owner confirmation of time remains required.",
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "350d7126-c5fd-4a37-99b4-1df8a4c0b219",
+        "providerId": "65f60449-9384-9aa2-932d-e9dd2ad3117b",
+        "startedAt": "2026-10-22T20:23:41.783Z",
+        "durationMs": 7710,
+        "inputHash": "48b1590aebdaedc6cf739ad374fe16f261523a6f9f957c1da31692b9dce2a814",
+        "agentId": "amina",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 648,
+        "total_tokens": 2658,
+        "prompt_tokens": 2010,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 496
+        }
+      },
+      "signature": "41G6K2VjeXKS1KbbDnSEVf+CxV7M2H6vcx7c9DV/NJC+LpOly4QdUQ+9Q6ZVjZwklzG7OshLjVmQ4rbMTcRCBg=="
+    },
+    {
+      "id": "e8b85e75-06d3-413a-914b-043dd3281ef6",
+      "seq": 109,
+      "at": "2026-10-22T20:23:49.496Z",
+      "requestId": "287be2f0-1924-45c0-a091-1db3045d918e",
+      "sessionId": "c7a7a525-057d-468a-a591-569ee3954c53",
+      "type": "awaiting_approval",
+      "message": "Outcome: awaiting_approval. Both owners must approve the exact proposal.",
+      "mode": "live"
+    }
+  ],
+  "connections": []
+}

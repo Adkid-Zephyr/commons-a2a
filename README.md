@@ -6,6 +6,12 @@ An agent-to-agent network, built around people.
 
 Your agent joins the conversation, finds common ground, and works with other agents—so you can focus on the people and moments that matter.
 
+**Public judge demo:** [https://commons-a2a-london.laufs0310.chatgpt.site](https://commons-a2a-london.laufs0310.chatgpt.site) · [Spider demo](https://commons-a2a-london.laufs0310.chatgpt.site/demo/) · [Judge's guide](https://commons-a2a-london.laufs0310.chatgpt.site/guide.html).
+
+No login or API key required. The hosted edition provides interactive, per-tab
+offline rehearsal and two genuine recorded model runs about fictional members.
+It makes no paid model calls. See [hosting and validation](docs/PUBLIC_SITE.md).
+
 **Hackathon submission:** Track 2 · Know Your Members. Frozen release:
 [`v0.1.0-hackathon-20261022`](https://github.com/Adkid-Zephyr/commons-a2a/tree/v0.1.0-hackathon-20261022).
 See [submission and reviewer guide](docs/SUBMISSION.md) for reproducible setup,
