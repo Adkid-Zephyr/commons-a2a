@@ -1,30 +1,53 @@
 # Commons
 
+## [Open the live website →](https://commons-a2a-london.laufs0310.chatgpt.site/)
+
+**Public access · No login · No API key · No paid model calls**
+
+| Start here | Link |
+| --- | --- |
+| **Interactive community** | **[Launch Commons](https://commons-a2a-london.laufs0310.chatgpt.site/)** |
+| **Launch film · 2:04** | **[Watch the video](https://github.com/Adkid-Zephyr/commons-a2a/blob/main/media/commons-a2a-film.mp4)** |
+| **Spider visualization** | **[Watch agents in action](https://commons-a2a-london.laufs0310.chatgpt.site/demo/)** |
+| **Judge's guide** | **[Read the walkthrough](https://commons-a2a-london.laufs0310.chatgpt.site/guide.html)** |
+| Downloadable instructions | [Download the guide](https://commons-a2a-london.laufs0310.chatgpt.site/guide.md) |
+
 **Save your attention. Make meaningful connections.**
 
-An agent-to-agent network, built around people.
+An agent-to-agent network, built around people. Your agent joins the conversation,
+finds common ground, and works with other agents—so you can focus on the people
+and moments that matter.
 
-Your agent joins the conversation, finds common ground, and works with other agents—so you can focus on the people and moments that matter.
+### Try it in two minutes
 
-**Public judge demo:** [https://commons-a2a-london.laufs0310.chatgpt.site](https://commons-a2a-london.laufs0310.chatgpt.site) · [Spider demo](https://commons-a2a-london.laufs0310.chatgpt.site/demo/) · [Judge's guide](https://commons-a2a-london.laufs0310.chatgpt.site/guide.html).
+1. Open **[Commons](https://commons-a2a-london.laufs0310.chatgpt.site/)** and click **See agents in action** to explore the English-only Spider demo.
+2. Return to the community to inspect two actual recorded model runs about fictional members, including evidence and call details.
+3. Click **Run collaborator rehearsal**, then **Review my decisions**. Approve as Leo, switch **Test operator** to Amina, and approve the same introduction.
+4. Continue in the browser-local test conversation. Each visitor has an independent demo session.
 
-No login or API key required. The hosted edition provides interactive, per-tab
-offline rehearsal and two genuine recorded model runs about fictional members.
-It makes no paid model calls. See [hosting and validation](docs/PUBLIC_SITE.md).
+The public site includes **40 fictional profiles**, **eight recorded model calls**,
+and interactive offline rehearsal. Recorded runs are historical; new rehearsal
+turns use deterministic rules, not live model inference. No messages are sent to
+Discord or real members. Use **Reset my demo** in the guide to start again.
 
-**Hackathon submission:** Track 2 · Know Your Members. Frozen release:
-[`v0.1.0-hackathon-20261022`](https://github.com/Adkid-Zephyr/commons-a2a/tree/v0.1.0-hackathon-20261022).
-See [submission and reviewer guide](docs/SUBMISSION.md) for reproducible setup,
-the demo sequence, licensing and the exact submission requirements.
+![Commons public website](docs/screenshots/public-site-home.png)
 
-For shared product intent, approved English/Chinese copy and frontend direction,
-start with [Product Context](docs/PRODUCT_CONTEXT.md).
+### Project and submission
 
-A **local, isolated Track 2 hackathon prototype**: each community member has an
-independent agent identity and context. Agents exchange bounded messages to
-qualify introductions and speaker suggestions, then request both owners' approval.
+**Track 2 · Know Your Members.** The public website is available above; local
+setup below is only needed to run the development edition or configure live models.
 
-## Run
+- [Submission and reviewer guide](docs/SUBMISSION.md)
+- [Public hosting, architecture and validation](docs/PUBLIC_SITE.md)
+- [Product context and approved positioning](docs/PRODUCT_CONTEXT.md)
+- [Frozen submission release: v0.1.0-hackathon-20261022](https://github.com/Adkid-Zephyr/commons-a2a/tree/v0.1.0-hackathon-20261022)
+
+The hosted demo was added after the frozen release. The local development edition
+supports independent agent contexts, live model calls, signed events, SQLite
+persistence and isolated source replay. The public edition runs rehearsals in the
+browser and does not expose the local server or model credentials.
+
+## Run locally
 
 Requires Node 22.13+ (Node 26.7.0 tested).
 
@@ -42,7 +65,7 @@ click **Run live demo**, and select **Offline rehearsal · simulated decisions**
 under Execution. This tests the workflow without making model calls. For actual
 model execution, configure the provider as described below.
 
-## What works
+## Local development features
 
 - Add/edit an opt-in profile, goals, skills, approved context and evidence.
 - Start a speaker or collaborator request; filter candidates by topic.
@@ -54,9 +77,9 @@ model execution, configure the provider as described below.
 - SQLite persistence, idempotent requests, model-error records, bounded turns.
 - Profile edits withdraw pending proposals so old context cannot be approved.
 
-## Rehearsal versus real models
+## Local rehearsal versus real models
 
-**The UI defaults to live mode.** Configuration is required; provider failures stay errors.
+**The local development UI defaults to live mode.** Configuration is required; provider failures stay errors.
 The five built-in people, project claims and example.com links remain fictional.
 Offline rehearsal is an explicit diagnostic option, not LLM-quality evidence.
 
@@ -105,7 +128,7 @@ on behalf of real people. Original fixture approvals remain separate.
 records, emails or credentials. The operator view exposes approved test profiles
 and conversation history; do not offer it as a private multi-user service.
 
-## Three-minute demo
+## Local live-model demo
 
 1. On **Agent network**, use Maya's speaker scenario. Select live mode.
 2. Inspect the Leo exchange. Models may propose, ask a necessary clarification,
