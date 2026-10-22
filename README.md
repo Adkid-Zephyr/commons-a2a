@@ -22,7 +22,8 @@ npm ci
 npm run dev
 ```
 
-Open http://127.0.0.1:3402. The server deliberately rejects other hosts and
+Open http://127.0.0.1:3402 for the landing page and http://127.0.0.1:3402/app for
+the operator app. The server deliberately rejects other hosts and
 cross-origin mutations. This is an operator sandbox with a member switcher,
 not a publicly deployable authenticated multi-user service.
 
@@ -67,7 +68,7 @@ are held by this operator's server, not independently owned remote devices.
 The Track 2 page offers a Hack Collective dataset, but the dataset itself has
 not been supplied. A bounded read-only snapshot of six messages from the event's
 Discord `#team-up` channel has been imported into a separate replay database.
-Open `/?dataset=discord-replay` or use the dataset selector. Names and identifying
+Open `/app?dataset=discord-replay` or use the dataset selector. Names and identifying
 details are removed from model context; source claims remain unverified, current
 availability unknown, and approvals/human handoffs disabled. See
 [source replay instructions](docs/SOURCE_REPLAY.md).

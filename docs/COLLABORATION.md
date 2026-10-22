@@ -61,6 +61,19 @@ Read-only source replay permits local test requests, but rejects `member`,
 `approve` and `message`. Do not make UI controls bypass this boundary. A replay
 Agent is not an authorized representative of the real source author.
 
+## Frontend routes (firdavz, `frontend` branch)
+
+No API change. The app now has two root layouts (route groups):
+
+- `/` — landing page, `app/(landing)/` + `components/landing/`, Tailwind v4 styles
+  in `app/(landing)/landing.css`. Copy follows PRODUCT_CONTEXT.md §1. The hero
+  stats and the "A2A room" section poll `GET /api?dataset=synthetic` every 2–3 s
+  and show agent-to-agent events (`from` and `to` set, different, not `executing`)
+  with their `mode` label. No scripted dialogue.
+- `/app` — the existing operator app, moved unchanged to `app/(console)/app/`
+  with its own `globals.css`; Tailwind does not load there.
+- `/?dataset=<id>` redirects to `/app?dataset=<id>` so older links keep working.
+
 ## Running and validation
 
 ```sh
