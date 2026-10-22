@@ -1,5 +1,18 @@
 # Validation — 2026-10-22
 
+## Submission freeze
+
+- Functional source frozen from `52a31f6`; release tag `v0.1.0-hackathon-20261022`.
+- Final checks: **34 tests passed, 0 failed, 0 skipped**; production build and
+  TypeScript checks passed.
+- Homepage, `/demo`, full workflow, dashboard JavaScript, bundled MIT license and
+  synthetic API returned HTTP 200. API snapshot omitted private notes and keys.
+- Targeted tracked-file secret scan found no matches and no forbidden private paths.
+- Public GitHub repository and Apache-2.0 recognition verified. Official rules
+  accept Apache-2.0, MIT or AGPL-3.0. See [submission guide](SUBMISSION.md).
+- The video URL, private team details and successful form submission are separate
+  completion items; these code checks do not claim the entry has been submitted.
+
 ## Final demo readiness update
 
 - Added repeatable synthetic `demo` requests that preserve history and avoid

@@ -6,6 +6,11 @@ An agent-to-agent network, built around people.
 
 Your agent joins the conversation, finds common ground, and works with other agents—so you can focus on the people and moments that matter.
 
+**Hackathon submission:** Track 2 · Know Your Members. Frozen release:
+[`v0.1.0-hackathon-20261022`](https://github.com/Adkid-Zephyr/commons-a2a/tree/v0.1.0-hackathon-20261022).
+See [submission and reviewer guide](docs/SUBMISSION.md) for reproducible setup,
+the demo sequence, licensing and the exact submission requirements.
+
 For shared product intent, approved English/Chinese copy and frontend direction,
 start with [Product Context](docs/PRODUCT_CONTEXT.md).
 
@@ -25,6 +30,11 @@ npm run dev
 Open http://127.0.0.1:3402. The server deliberately rejects other hosts and
 cross-origin mutations. This is an operator sandbox with a member switcher,
 not a publicly deployable authenticated multi-user service.
+
+For a no-key workflow check, open http://127.0.0.1:3402/spider/workspace.html,
+click **Run live demo**, and select **Offline rehearsal · simulated decisions**
+under Execution. This tests the workflow without making model calls. For actual
+model execution, configure the provider as described below.
 
 ## What works
 
