@@ -1,5 +1,7 @@
 # Commons — Track 2 MVP
 
+Product intent and approved copy: [PRODUCT_CONTEXT.md](PRODUCT_CONTEXT.md).
+
 Every member has a separate agent. Agents discover relevant members, exchange
 bounded messages, request owner approval and hand off to humans.
 
@@ -35,5 +37,6 @@ Offline rehearsal is clearly labelled and uses deterministic agents for workflow
 testing. Real mode is the UI default, uses the configured local Quotio/Grok route,
 and uses one call per
 agent turn. Provider errors remain errors; there is no silent simulated fallback.
-Real Discord, organizer data, real-person consent, sustained operation and cloud
+An anonymized historical Discord snapshot has been tested separately. Live Bot API
+access, organizer data, real-person consent, sustained operation and cloud
 deployment remain separate acceptance items.

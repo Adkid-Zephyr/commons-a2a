@@ -1,5 +1,10 @@
 # Presentation page
 
+Copy alignment for the next frontend pass: use the approved slogan and positioning
+in [PRODUCT_CONTEXT.md](PRODUCT_CONTEXT.md). That document supersedes earlier
+marketing headings; the existing presentation source has not been changed by
+this documentation update.
+
 Open http://127.0.0.1:3402/showcase/index.html with the existing application server.
 
 Files owned by this presentation pass: `public/showcase/index.html`, `style.css`, `demo.js`, and `docs/showcase-preview.png`.

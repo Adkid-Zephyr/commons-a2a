@@ -1,6 +1,13 @@
 # Commons
 
-Personal agents. Human connections.
+**Save your attention. Make meaningful connections.**
+
+An agent-to-agent network, built around people.
+
+Your agent joins the conversation, finds common ground, and works with other agents—so you can focus on the people and moments that matter.
+
+For shared product intent, approved English/Chinese copy and frontend direction,
+start with [Product Context](docs/PRODUCT_CONTEXT.md).
 
 A **local, isolated Track 2 hackathon prototype**: each community member has an
 independent agent identity and context. Agents exchange bounded messages to
@@ -48,7 +55,8 @@ Live per-agent calls have been verified through the existing local Quotio proxy
 using `grok-4.7-build-fast`. Call IDs, provider IDs when available, requested and
 reported models, duration, usage, and hashes of scoped inputs are recorded.
 The proxy key remains in ignored `.env.local` with mode 0600; it must only go to
-the local proxy, never directly to xAI. Only synthetic profiles were used.
+the local proxy, never directly to xAI. Initial tests used synthetic profiles;
+subsequent tests used anonymized historical Discord source records in isolation.
 
 This app does not implement the external A2A standard or
 Buzz/Nostr wire protocol. Event signatures are local Ed25519 signatures; keys

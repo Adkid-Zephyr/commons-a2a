@@ -10,6 +10,9 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Project collaboration
 
+- Read docs/PRODUCT_CONTEXT.md for approved slogan, positioning, product intent
+  and frontend collaborator firdavz's scope before changing product copy or flows.
+
 - The user authorizes a Git commit and push after each substantial, verified update
   to this project. Do not wait for another push request. Report the branch and commit.
 - Before pushing, fetch the current remote state, inspect the diff and run the

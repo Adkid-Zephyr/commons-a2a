@@ -2,7 +2,11 @@
 
 ## Product promise
 
-**Save your attention. Leave an agent in your community.**
+**Save your attention. Make meaningful connections.**
+
+**An agent-to-agent network, built around people.**
+
+Approved copy and product intent: [PRODUCT_CONTEXT.md](PRODUCT_CONTEXT.md).
 
 The agent reads for you, discovers relevant people, checks fit with their agents,
 and brings back only decisions or conversations worth your attention.
@@ -28,11 +32,11 @@ Generated motion/visuals may frame the footage, but must not invent app results.
 | Time | Shot | On-screen copy |
 | --- | --- | --- |
 | 0–4s | Fast-moving stylized chat fragments, no private messages | Too much chat. Too little attention. |
-| 4–8s | Enter a personal goal; show the member's agent | Leave an agent in your community. |
+| 4–8s | Enter a personal goal; show the member's agent | An agent-to-agent network, built around people. |
 | 8–17s | Real A2A inquiry, clarification and refusal/proposal | Your goals. Their goals. Common ground. |
 | 17–24s | Compact brief, evidence, then owner approval in a synthetic demo | Only what needs you. |
-| 24–28s | Local human conversation after both test approvals | Agents coordinate. People connect. |
-| 28–30s | Commons wordmark | Save your attention. |
+| 24–28s | Local human conversation after both test approvals | Agents move things forward. People make it matter. |
+| 28–30s | Commons wordmark | Save your attention. Make meaningful connections. |
 
 Use the synthetic scenario for approval/handoff footage. Source replay cannot
 approve on behalf of real members. Label source/demo mode in visible footage.

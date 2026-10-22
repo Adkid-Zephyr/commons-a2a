@@ -1,5 +1,9 @@
 # Frontend / backend handoff
 
+Frontend collaborator: **firdavz**. Approved slogan, positioning, original product
+intent and shared design context live in [PRODUCT_CONTEXT.md](PRODUCT_CONTEXT.md).
+Use that document as the copy source of truth; this document owns API details.
+
 ## Current delivery
 
 The source replay update adds independent databases for `synthetic`,

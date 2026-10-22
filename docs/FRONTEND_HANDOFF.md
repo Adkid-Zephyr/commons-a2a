@@ -1,9 +1,13 @@
 # 前端对接说明
 
 你负责前端界面、交互和 A2A 可视化；后端、模型调用、独立 Agent 上下文、
-消息路由和隔离测试由后端侧继续负责。产品主张：
+消息路由和隔离测试由后端侧继续负责。前端协作者：**firdavz**。
+统一文案、产品初衷和 A2A 交互表达先看 [PRODUCT_CONTEXT.md](PRODUCT_CONTEXT.md)。
+已确认产品主张：
 
-**Save your attention. Leave an agent in your community.**
+**Save your attention. Make meaningful connections.**
+
+**An agent-to-agent network, built around people.**
 
 ## 拉取与启动
 
