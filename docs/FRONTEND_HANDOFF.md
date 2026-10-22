@@ -38,6 +38,14 @@ npm ci
 | GET /api?dataset=synthetic | 获取完整测试状态 |
 | GET /api?dataset=<id>&profile=<memberId> | 获取测试成员资料 |
 | POST /api?dataset=<id> | 提交下列 action |
+| GET /api?dataset=<id>&view=attention&ownerId=<memberId> | 推荐作为收件箱入口：最多 5 条优先事项，默认只看 live |
+
+**新增的 attention 接口可以直接用来做 “Only what needs you” 页面。**
+返回 items、totalItems、hasMore、stats；每项有 kind、title、summary、证据、
+requestId/sessionId 和可用 actions。优先显示待决策，其次失败和缺失信息，
+再显示真人连接及普通更新。用原接口处理 approve/decline 等动作；
+点“查看过程”再打开完整 A2A 时间线。支持 limit/offset 分页及 mode=rehearsal。
+不展示其他成员的私有摘要，也不把演练结果混进默认真实模式。
 
 创建需求：
 

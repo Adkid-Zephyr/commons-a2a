@@ -22,6 +22,25 @@ matching Origin header; no external community writes exist.
 | `GET /api?dataset=organizer-replay` | Organizer replay, if supplied/imported |
 | `GET /api?dataset=<id>&profile=<member-id>` | Operator profile view; never use as public auth |
 | `POST /api?dataset=<id>` | Existing action body: `request`, `member`, `approve`, `message` |
+| `GET /api?dataset=<id>&view=attention&ownerId=<member-id>` | Compact personal attention brief; default live mode, top 5 items |
+
+### Attention brief: the primary inbox surface
+
+Use the attention view for the simple user-facing inbox; keep the graph and full
+event stream available as detail. This view makes no extra model calls and never
+modifies state. Optional `mode=rehearsal`, `limit=1..50`, `offset=0..10000`.
+
+The response has `items`, `totalItems`, `hasMore`, `stats`, `mode`, `sourceReplay`.
+Each item has `kind`, `title`, `summary`, request/session IDs, evidence and `actions`.
+Supported kinds: decision, missing_information, failure, human_connection,
+waiting, update. Actions reference the existing POSTs or detail views:
+`inspect_session`, `inspect_request`, `approve`, `decline`, `open_conversation`.
+Show only actions returned for that item. Source replay never offers approvals.
+Display mode/provenance so old rehearsals cannot look like live outcomes.
+
+Stats count conversations reviewed, agent turns, pending decisions and outcomes
+requiring no action. They do not claim measured minutes saved. The existing
+endpoints and response fields are unchanged. See FRONTEND_HANDOFF.md for setup.
 
 New state fields:
 

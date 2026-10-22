@@ -1,5 +1,15 @@
 # Validation — 2026-10-22
 
+## Attention brief update
+
+- Added a read-only, per-member attention projection without extra model calls:
+  decisions, missing information, failures, human handoffs and relevant updates.
+- Default live-only selection, bounded pagination, explicit allowed actions,
+  source-replay approval suppression and no fabricated time-saved statistics.
+- A regression test initially caught a request owner seeing another member's
+  digest. Tightened event filtering so only the intended digest recipient sees it.
+- 22 automated tests and production build checked for this update.
+
 ## Real Discord source update
 
 - Read six relevant visible `#team-up` messages through the existing Chrome

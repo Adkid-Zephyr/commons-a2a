@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse, after } from 'next/server';
 // @ts-ignore local runtime modules are validated with executable tests
 import { engine, datasets } from '../../lib/runtime.mjs';
+import { attentionBrief } from '../../lib/attention.mjs';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 
@@ -11,7 +12,16 @@ function localOnly(req:NextRequest){
   if(req.method!=='GET'&&origin!==`http://${host}`)throw new Error('Same-origin request required');
 }
 export async function GET(req:NextRequest){
-  try {localOnly(req);const id=req.nextUrl.searchParams.get('profile');const app=engine(req.nextUrl.searchParams.get('dataset')??'synthetic');return NextResponse.json(id?app.profile(id):{...app.snapshot(),datasets:datasets()},{headers:{'Cache-Control':'no-store'}});}
+  try {
+    localOnly(req);
+    const params=req.nextUrl.searchParams;
+    const app=engine(params.get('dataset')??'synthetic');
+    const profile=params.get('profile');
+    const data=params.get('view')==='attention'
+      ? attentionBrief(app.state,params.get('ownerId'),{mode:params.get('mode')??'live',limit:Number(params.get('limit')??5),offset:Number(params.get('offset')??0)})
+      : profile?app.profile(profile):{...app.snapshot(),datasets:datasets()};
+    return NextResponse.json(data,{headers:{'Cache-Control':'no-store'}});
+  }
   catch(e:any){return NextResponse.json({error:e.message},{status:400});}
 }
 export async function POST(req:NextRequest){
