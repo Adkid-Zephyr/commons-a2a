@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-10-22T19:50:15.186Z",
+  "request": {
+    "ownerId": "leo",
+    "kind": "collaborator",
+    "title": "Demo: find a React accessibility collaborator",
+    "details": "A two-hour collaboration to improve keyboard navigation and screen-reader labels on the existing authorization and receipt screens of an agent payment demo. No backend changes, no new payment features, no ongoing maintenance. Time and participation require both owners to confirm.",
+    "topics": [
+      "frontend",
+      "react"
+    ],
+    "mode": "live",
+    "idempotencyKey": "1e0b9b38-c5ef-4e53-9e15-fcc036d49959",
+    "sourceUrl": "",
+    "authorized": true,
+    "id": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+    "createdAt": "2026-10-22T19:49:52.602Z",
+    "status": "queued",
+    "demoRun": true,
+    "demoScenario": "collaborator"
+  },
+  "session": {
+    "id": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+    "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+    "ownerId": "leo",
+    "candidateId": "amina",
+    "createdAt": "2026-10-22T19:49:52.605Z",
+    "status": "connected",
+    "turns": 2,
+    "approvals": {
+      "leo": "approved",
+      "amina": "approved"
+    },
+    "evidenceIds": [
+      "amina-ui"
+    ],
+    "summary": "Yes — a single two-hour pass on keyboard navigation and screen-reader labels for the existing authorization and receipt screens is work I’d consider. It stays frontend-only, adds no payment features, and has no ongoing maintenance, which matches a short collaboration where I can also meet a backend builder. On existing screens I usually start from the current focus order and accessible names, then adjust labels, keyboard paths, and announcements without changing behavior. The only evidence I can point to is the synthetic agent-dashboard fixture, not independently verified production work. I’m generally available, but the specific time and participation still need both owners to confirm."
+  },
+  "events": [
+    {
+      "id": "c79cb37a-60e3-4b53-b9ba-1301b41b91a1",
+      "seq": 55,
+      "at": "2026-10-22T19:49:52.606Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "from": "leo",
+      "to": "amina",
+      "type": "executing",
+      "message": "Leo's agent is processing its own context.",
+      "mode": "live",
+      "signature": "3JGEAGW0ron1Ag+n3A+021XxgX076fr8bMG861O6BrrF9vq4rEMoYW1cXUR8w+EeyY3sj2lp1Xb2hGB+lO0CAA=="
+    },
+    {
+      "id": "670b1d14-4c59-401c-be47-c234637ae864",
+      "seq": 56,
+      "at": "2026-10-22T19:50:03.284Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "from": "leo",
+      "to": "amina",
+      "type": "inquiry",
+      "message": "Hi Amina — I’m Leo. I have a fictional fixture agent-payment demo (authorization and receipt screens only) and I’m looking for a React frontend collaborator for a single two-hour pass on keyboard navigation and screen-reader labels. No backend changes, no new payment features, and no ongoing maintenance; both owners would still need to confirm time and participation. Does that scope match work you’d consider, and what should I know about how you usually approach React accessibility on existing screens?",
+      "reason": "Asking Amina whether the stated two-hour React accessibility scope is something she would consider.",
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "f919f883-addc-4c7f-96b2-dff6dca07c13",
+        "providerId": "71e233a0-0c35-9d48-b932-9988e2096d15",
+        "startedAt": "2026-10-22T19:49:52.608Z",
+        "durationMs": 10676,
+        "inputHash": "f4cd49dab53d4c6df5040058af722628cc27bc15cb9043ab413292cefc462bda",
+        "agentId": "leo",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 996,
+        "total_tokens": 2878,
+        "prompt_tokens": 1882,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 859
+        }
+      },
+      "signature": "FTwz59rXZYye48XgOdNQyfcF9ASL3hssL3SAcoucV0HrradeIyCUau8qfhdrXBGvmS8jmg/37V6CV1sr0992CA=="
+    },
+    {
+      "id": "42ea676c-34d9-4f30-8f78-f22be61459e8",
+      "seq": 57,
+      "at": "2026-10-22T19:50:03.287Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "from": "amina",
+      "to": "leo",
+      "type": "executing",
+      "message": "Amina's agent is processing its own context.",
+      "mode": "live",
+      "signature": "1vauytIhG2oCwlc9G6IfbBH8NWgEvKBxn0RMwYHcx1UsOcGWhmKPWtmnflS+sRGTbP3hWagdc9Aja7bFtk+ECw=="
+    },
+    {
+      "id": "438d5452-81bb-47e5-89d1-f541abe9e1ea",
+      "seq": 58,
+      "at": "2026-10-22T19:50:13.895Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "from": "amina",
+      "to": "leo",
+      "type": "proposal",
+      "message": "Yes — a single two-hour pass on keyboard navigation and screen-reader labels for the existing authorization and receipt screens is work I’d consider. It stays frontend-only, adds no payment features, and has no ongoing maintenance, which matches a short collaboration where I can also meet a backend builder. On existing screens I usually start from the current focus order and accessible names, then adjust labels, keyboard paths, and announcements without changing behavior. The only evidence I can point to is the synthetic agent-dashboard fixture, not independently verified production work. I’m generally available, but the specific time and participation still need both owners to confirm.",
+      "reason": "Scope, React accessibility focus, and a two-hour intro match; time still needs owner approval.",
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "0ee5babf-e695-4ed2-895c-34bdc6dc32e8",
+        "providerId": "8e6a5b44-6cc0-9017-b9a0-cd1e79413873",
+        "startedAt": "2026-10-22T19:50:03.289Z",
+        "durationMs": 10606,
+        "inputHash": "5c45c689003e95cfe30478bc75733f07c75bdc2e9bf86beae30196d7e4bc150a",
+        "agentId": "amina",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 998,
+        "total_tokens": 2995,
+        "prompt_tokens": 1997,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 831
+        }
+      },
+      "signature": "44StctyFG35XTINesmcz+UAXWlGKxosQRAjsbdkIUHKr1AggxE/Cfil+a1xij9K3SxKT/OUDVXD6TzzE1/u1AQ=="
+    },
+    {
+      "id": "3b976ca3-d5bd-4777-83f1-cdafdc964e2d",
+      "seq": 59,
+      "at": "2026-10-22T19:50:13.897Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "type": "awaiting_approval",
+      "message": "Outcome: awaiting_approval. Both owners must approve the exact proposal.",
+      "mode": "live"
+    },
+    {
+      "id": "de3b23ca-182c-44e4-b872-dd320860fcac",
+      "seq": 60,
+      "at": "2026-10-22T19:50:15.169Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "from": "leo",
+      "type": "owner_decision",
+      "message": "Leo approved this test proposal.",
+      "actor": "human-test-operator",
+      "signature": "gp/89dbeP7+tma5+wz/3M5nSY/yY3tz/05nhQrmn9+PEXJuFmT/jdD16jDJak16QbKVYjRLeB+QNqsBwk16QAw=="
+    },
+    {
+      "id": "166c0c31-2be7-47e6-a0f3-54a8cf70d599",
+      "seq": 61,
+      "at": "2026-10-22T19:50:15.176Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "from": "amina",
+      "type": "owner_decision",
+      "message": "Amina approved this test proposal.",
+      "actor": "human-test-operator",
+      "signature": "c1/2Q6dyKLYt12QfxAC57UMKRyltyPrG/3VF2h8av40XFjzoI4Cy223tVSR4KSHaai5DlaDzQN+ColEaoFPQCA=="
+    },
+    {
+      "id": "02348c3e-2a97-462d-8e4f-0c2e89a31e2e",
+      "seq": 62,
+      "at": "2026-10-22T19:50:15.177Z",
+      "requestId": "a75fc9eb-d517-4922-8de3-7a2aae8bf37e",
+      "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+      "type": "human_handoff",
+      "message": "Both approvals recorded. A local human conversation is ready; no external message sent."
+    }
+  ],
+  "connection": {
+    "id": "5097fa48-a50b-4fbb-bd8f-d3245547149c",
+    "sessionId": "e0b90662-f36f-443a-b068-3cc7db9fc5a6",
+    "members": [
+      "leo",
+      "amina"
+    ],
+    "summary": "Yes — a single two-hour pass on keyboard navigation and screen-reader labels for the existing authorization and receipt screens is work I’d consider. It stays frontend-only, adds no payment features, and has no ongoing maintenance, which matches a short collaboration where I can also meet a backend builder. On existing screens I usually start from the current focus order and accessible names, then adjust labels, keyboard paths, and announcements without changing behavior. The only evidence I can point to is the synthetic agent-dashboard fixture, not independently verified production work. I’m generally available, but the specific time and participation still need both owners to confirm.",
+    "messages": [
+      {
+        "id": "6163c954-56de-470f-92f5-c38b7935eb5c",
+        "ownerId": "leo",
+        "message": "Synthetic demo QA: let’s review the keyboard-navigation scope together.",
+        "at": "2026-10-22T19:50:15.183Z"
+      }
+    ]
+  },
+  "checks": {
+    "liveModelCalls": 2,
+    "attentionDecision": true,
+    "oneApprovalBlockedHandoff": true,
+    "twoTestApprovalsCreatedRoom": true,
+    "localHumanMessage": true,
+    "externalCommunityWrites": 0,
+    "realMemberApproval": false
+  }
+}

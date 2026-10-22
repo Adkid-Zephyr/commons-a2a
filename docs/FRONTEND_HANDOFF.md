@@ -1,5 +1,21 @@
 # 前端对接说明
 
+## 今晚演示新增接口
+
+仍然 POST `/api?dataset=synthetic`：
+
+- **反复演示**：`{action:'demo', scenario:'collaborator', mode:'live', idempotencyKey}`。
+  scenario 也可用 speaker。返回 request 后按原方式轮询；保留历史，明确标记
+  `demoRun:true`，只对虚构成员演示绕过七天冷却。不需要清空数据库。
+- **补充信息后继续**：`{action:'clarify', sessionId, ownerId, details, idempotencyKey}`。
+  只有原需求发起人可对 needs_info/error 提交。返回新的关联 request，仅重试原
+  候选人，审批重新开始。旧 session 的 followupRequestId 可用于跳转。
+- attention item 的 actions 如含 `clarify_request`，可显示一个简短补充输入框。
+  源消息回放不提供这个操作，不能替真实成员补写意愿。
+
+演示脚本与画面建议见 [DEMO_RUNBOOK.md](DEMO_RUNBOOK.md)，接口细节见
+[COLLABORATION.md](COLLABORATION.md)。本次后端没有修改前端页面。
+
 你负责前端界面、交互和 A2A 可视化；后端、模型调用、独立 Agent 上下文、
 消息路由和隔离测试由后端侧继续负责。前端协作者：**firdavz**。
 统一文案、产品初衷和 A2A 交互表达先看 [PRODUCT_CONTEXT.md](PRODUCT_CONTEXT.md)。
