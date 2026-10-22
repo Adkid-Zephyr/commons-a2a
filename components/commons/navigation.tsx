@@ -1,18 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
+import type { Tab } from "./use-commons-app";
 
-const navLinks = [
-  { name: "Why Commons",  href: "#features"     },
-  { name: "How it works", href: "#how-it-works" },
-  { name: "A2A room",     href: "#room"         },
-  { name: "Boundaries",   href: "#security"     },
+const navLinks: { tab: Tab; name: string }[] = [
+  { tab: "network", name: "Agent network" },
+  { tab: "inbox", name: "Your inbox" },
+  { tab: "members", name: "Members" },
 ];
 
-export function Navigation() {
+export function Navigation({ tab, pending, onTab, onMeet, canMeet }: { tab: Tab; pending: number; onTab: (t: Tab) => void; onMeet: () => void; canMeet: boolean }) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -23,6 +21,11 @@ export function Navigation() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const go = (t: Tab) => {
+    setIsMobileMenuOpen(false);
+    onTab(t);
+  };
 
   return (
     <header
@@ -50,35 +53,34 @@ export function Navigation() {
             <span className={`font-mono transition-all duration-500 ${isScrolled ? "text-[10px] mt-0.5 text-muted-foreground" : "text-xs mt-1 text-white/60"}`}>A2A</span>
           </a>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation: the app's own views */}
           <div className="hidden md:flex items-center gap-12">
             {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className={`text-sm transition-colors duration-300 relative group ${isScrolled ? "text-foreground/70 hover:text-foreground" : "text-white/70 hover:text-white"}`}
+              <button
+                key={link.tab}
+                onClick={() => go(link.tab)}
+                className={`text-sm transition-colors duration-300 relative group ${
+                  isScrolled ? (tab === link.tab ? "text-foreground" : "text-foreground/70 hover:text-foreground") : "text-white/70 hover:text-white"
+                }`}
               >
                 {link.name}
-                <span className={`absolute -bottom-1 left-0 w-0 h-px transition-all duration-300 group-hover:w-full ${isScrolled ? "bg-foreground" : "bg-white"}`} />
-              </a>
+                {link.tab === "inbox" && pending > 0 && (
+                  <span className="ml-2 inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-accent-pink px-1 font-mono text-[10px] text-black">{pending}</span>
+                )}
+                <span className={`absolute -bottom-1 left-0 h-px transition-all duration-300 group-hover:w-full ${isScrolled && tab === link.tab ? "w-full" : "w-0"} ${isScrolled ? "bg-foreground" : "bg-white"}`} />
+              </button>
             ))}
           </div>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="#room" className={`transition-all duration-500 ${isScrolled ? "text-xs text-foreground/70 hover:text-foreground" : "text-sm text-white/70 hover:text-white"}`}>
-              See agents in action
-            </a>
-            <a
-              href="/app"
-              className={cn(
-                buttonVariants({ size: "sm" }),
-                "rounded-full transition-all duration-500",
-                isScrolled ? "bg-foreground hover:bg-foreground/90 text-background px-4 h-8 text-xs" : "bg-white hover:bg-white/90 text-black px-6"
-              )}
+            <button
+              onClick={onMeet}
+              disabled={!canMeet}
+              className={`rounded-full text-sm font-medium transition-all duration-500 disabled:opacity-40 ${isScrolled ? "bg-foreground hover:bg-foreground/90 text-background px-4 h-8 text-xs" : "bg-white hover:bg-white/90 text-black px-6 h-9"}`}
             >
               Meet your agent
-            </a>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -107,14 +109,12 @@ export function Navigation() {
         style={{ top: 0 }}
       >
         <div className="flex flex-col h-full px-8 pt-28 pb-8">
-          {/* Navigation Links */}
           <div className="flex-1 flex flex-col justify-center gap-8">
             {navLinks.map((link, i) => (
-              <a
-                key={link.name}
-                href={link.href}
-                onClick={() => setIsMobileMenuOpen(false)}
-                className={`text-5xl font-display text-foreground hover:text-muted-foreground transition-all duration-500 ${
+              <button
+                key={link.tab}
+                onClick={() => go(link.tab)}
+                className={`text-left text-5xl font-display text-foreground hover:text-muted-foreground transition-all duration-500 ${
                   isMobileMenuOpen
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-4"
@@ -122,31 +122,28 @@ export function Navigation() {
                 style={{ transitionDelay: isMobileMenuOpen ? `${i * 75}ms` : "0ms" }}
               >
                 {link.name}
-              </a>
+                {link.tab === "inbox" && pending > 0 && <span className="ml-3 align-middle font-mono text-base text-accent-pink">{pending}</span>}
+              </button>
             ))}
           </div>
 
-          {/* Bottom CTAs */}
-          <div className={`flex gap-4 pt-8 border-t border-foreground/10 transition-all duration-500 ${
+          <div className={`pt-8 border-t border-foreground/10 transition-all duration-500 ${
             isMobileMenuOpen
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-4"
           }`}
           style={{ transitionDelay: isMobileMenuOpen ? "300ms" : "0ms" }}
           >
-            <a
-              href="#room"
-              onClick={() => setIsMobileMenuOpen(false)}
-              className={cn(buttonVariants({ variant: "outline" }), "flex-1 rounded-full h-14 text-base")}
-            >
-              See agents
-            </a>
-            <a
-              href="/app"
-              className={cn(buttonVariants(), "flex-1 bg-foreground text-background rounded-full h-14 text-base")}
+            <button
+              disabled={!canMeet}
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                onMeet();
+              }}
+              className="btn btn-primary w-full h-14 text-base"
             >
               Meet your agent
-            </a>
+            </button>
           </div>
         </div>
       </div>

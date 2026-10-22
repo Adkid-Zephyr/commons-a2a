@@ -2,9 +2,6 @@
 
 import { useEffect, useState, useRef } from "react";
 import { ArrowRight } from "lucide-react";
-import { buttonVariants } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-import { isAgentMessage, useCommons } from "./use-commons";
 
 function BlurWord({ word, trigger }: { word: string; trigger: number }) {
   const letters = word.split("");
@@ -106,21 +103,20 @@ function BlurWord({ word, trigger }: { word: string; trigger: number }) {
   );
 }
 
-export function HeroSection() {
+type HeroProps = {
+  stats: { value: string; label: string }[];
+  note: string;
+  canMeet: boolean;
+  onMeet: () => void;
+  onSee: () => void;
+};
+
+export function Hero({ stats, note, canMeet, onMeet, onSee }: HeroProps) {
   const [isVisible, setIsVisible] = useState(false);
-  const { state } = useCommons();
 
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
-  // Counts from the local synthetic dataset; "—" until the API answers.
-  const count = (n?: number) => (state ? String(n ?? 0) : "—");
-  const stats = [
-    { value: count(state?.members.length), label: "agents, each with its own context" },
-    { value: count(state?.events.filter(isAgentMessage).length), label: "agent-to-agent messages" },
-    { value: count(state?.connections.length), label: "people connected after both approved" },
-  ];
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center items-start overflow-hidden bg-black">
@@ -213,19 +209,20 @@ export function HeroSection() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          <a
-            href="/app"
-            className={cn(buttonVariants({ size: "lg" }), "bg-white hover:bg-white/90 text-black px-8 h-14 text-base rounded-full group")}
+          <button
+            onClick={onMeet}
+            disabled={!canMeet}
+            className="btn h-14 px-8 text-base border-white bg-white text-black hover:bg-white/90 group"
           >
             Meet your agent
-            <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-          </a>
-          <a
-            href="#room"
-            className={cn(buttonVariants({ size: "lg", variant: "outline" }), "h-14 px-8 text-base rounded-full bg-transparent border-white/30 text-white hover:bg-white/10 hover:text-white")}
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+          </button>
+          <button
+            onClick={onSee}
+            className="btn h-14 px-8 text-base border-white/30 text-white hover:bg-white/10"
           >
             See agents in action
-          </a>
+          </button>
         </div>
         </div>
       </div>
@@ -247,7 +244,7 @@ export function HeroSection() {
           ))}
         </div>
         <p className="max-w-[1400px] mx-auto mt-4 text-[11px] font-mono text-white/30">
-          Live from the local synthetic dataset · fictional demo members
+          {note}
         </p>
       </div>
 

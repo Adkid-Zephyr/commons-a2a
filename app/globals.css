@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Theme from the v0 "COMPUTE" template (see THIRD_PARTY_NOTICES.md). */
+:root {
+  --background: oklch(0.06 0.008 260);
+  --foreground: oklch(0.94 0.005 90);
+  --muted-foreground: oklch(0.55 0.015 90);
+  --border: oklch(0.18 0.008 260);
+  --ring: oklch(0.94 0.005 90);
+  --accent-pink: #eca8d6;
+}
+
+@theme inline {
+  --font-sans: var(--font-instrument), 'Instrument Sans', system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), 'JetBrains Mono', monospace;
+  --font-display: var(--font-instrument-serif), 'Instrument Serif', Georgia, serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-accent-pink: var(--accent-pink);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  summary {
+    @apply cursor-pointer font-mono text-xs text-muted-foreground hover:text-foreground;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply relative border border-foreground/10 bg-foreground/[0.02] p-6 lg:p-8;
+  }
+  .eyebrow {
+    @apply inline-flex items-center gap-3 font-mono text-xs uppercase tracking-wider text-muted-foreground;
+  }
+  .field {
+    @apply mt-4 block font-mono text-xs text-muted-foreground;
+  }
+  .input {
+    @apply mt-2 block w-full border border-foreground/15 bg-background px-3 py-2.5 font-sans text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground/60 focus:border-foreground/50 disabled:opacity-50;
+  }
+  .input option {
+    @apply bg-background text-foreground;
+  }
+  .chip {
+    @apply border border-foreground/15 px-2.5 py-1 font-mono text-[11px] text-muted-foreground;
+  }
+  .btn {
+    @apply inline-flex h-10 items-center justify-center gap-2 rounded-full border border-foreground/20 px-5 text-sm whitespace-nowrap transition-colors hover:bg-foreground/5 disabled:pointer-events-none disabled:opacity-40;
+  }
+  .btn-primary {
+    @apply border-foreground bg-foreground text-background hover:bg-foreground/90;
+  }
+  .tag {
+    @apply inline-block border border-foreground/15 px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted-foreground;
+  }
+  .tag-bad {
+    @apply border-red-400/40 text-red-300;
+  }
+  .tag-warn {
+    @apply border-amber-300/40 text-amber-200;
+  }
+  .tag-good {
+    @apply border-emerald-300/40 text-emerald-200;
+  }
+}

@@ -82,18 +82,20 @@ Read-only source replay permits local test requests, but rejects `member`,
 `approve` and `message`. Do not make UI controls bypass this boundary. A replay
 Agent is not an authorized representative of the real source author.
 
-## Frontend routes (firdavz, `frontend` branch)
+## Frontend (firdavz, `frontend` branch)
 
-No API change. The app now has two root layouts (route groups):
+No API change and no route change: the app is still one page at `/`
+(`?dataset=<id>` works as before). It is restyled with the v0 template's design
+(Tailwind v4, `app/globals.css`):
 
-- `/` — landing page, `app/(landing)/` + `components/landing/`, Tailwind v4 styles
-  in `app/(landing)/landing.css`. Copy follows PRODUCT_CONTEXT.md §1. The hero
-  stats and the "A2A room" section poll `GET /api?dataset=synthetic` every 2–3 s
-  and show agent-to-agent events (`from` and `to` set, different, not `executing`)
-  with their `mode` label. No scripted dialogue.
-- `/app` — the existing operator app, moved unchanged to `app/(console)/app/`
-  with its own `globals.css`; Tailwind does not load there.
-- `/?dataset=<id>` redirects to `/app?dataset=<id>` so older links keep working.
+- `app/page.tsx` — hero with the approved copy (PRODUCT_CONTEXT.md §1), then the
+  agent app: Agent network / Your inbox / Members, operator controls and notices.
+- `components/commons/use-commons-app.ts` — all state and API calls, ported from
+  the previous page without behaviour changes (1.1 s polling, same POST bodies).
+- `components/commons/*-view.tsx`, `profile-modal.tsx` — the views. Hero stats
+  count agent-to-agent events (`from` and `to` set, different, not `executing`).
+- "Meet your agent" opens the existing member initialization form; "See agents in
+  action" opens the Agent network view.
 
 ## Running and validation
 

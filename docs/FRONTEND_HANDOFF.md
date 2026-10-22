@@ -45,9 +45,9 @@ npm ci
 ```
 
 建议在自己的前端分支工作，不要强推 main。打开 http://127.0.0.1:3402。
-前端入口：落地页 app/(landing)/page.tsx + components/landing/（Tailwind，样式在
-app/(landing)/landing.css）；操作台 app/(console)/app/page.tsx（路径 /app，样式在
-app/(console)/globals.css）；独立展示页是 public/showcase/。
+前端入口是 app/page.tsx、app/globals.css（Tailwind）；状态与接口调用在
+components/commons/use-commons-app.ts，各视图在 components/commons/；
+独立展示页是 public/showcase/。
 密钥和源数据不通过 Git 分享。新克隆只有 synthetic 数据集。
 
 ## 接口

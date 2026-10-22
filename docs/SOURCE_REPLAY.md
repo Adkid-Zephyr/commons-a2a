@@ -13,7 +13,7 @@ The messages are a bounded historical snapshot, not a live subscription or a
 complete channel archive. Discord browsing may update the user's local read
 position; no posts, reactions, DMs, invites or settings changes were made.
 
-Open http://127.0.0.1:3402/app?dataset=discord-replay or use the Test dataset selector.
+Open http://127.0.0.1:3402/?dataset=discord-replay or use the Test dataset selector.
 It has its own SQLite database and event history. The old synthetic demonstration
 remains intact. `source_replay` members have `ownerConsent: false` and unknown
 current availability. The operator cannot approve on their behalf or create

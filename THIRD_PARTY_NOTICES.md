@@ -24,13 +24,14 @@ MIT license is distributed in node_modules/@xyflow/react/LICENSE. Keep it with
 redistributed packages. Additional framework dependency notices remain in their
 installed packages and lockfile. Star count is a selection filter, not a quality guarantee.
 
-The landing page (`app/(landing)/`, `components/landing/`, `components/ui/button.tsx`,
-`lib/utils.ts`, `public/images/`) is adapted from the v0 community template
-"COMPUTE - The Platform to Build & Ship AI Agents" by kerroudj
+The visual design (`app/globals.css` theme, `app/layout.tsx` fonts,
+`components/commons/navigation.tsx`, `hero.tsx`, `footer.tsx`) is adapted from the
+v0 community template "COMPUTE - The Platform to Build & Ship AI Agents" by kerroudj
 (https://v0.app/templates/compute-the-platform-to-build-ship-ai-agents-Auw4otwlr20).
-Modifications: Commons copy, live data from the local API, removed sections and
-claims that do not apply. Some decorative images and the hero video are still
-loaded from the template author's Vercel Blob storage.
+Modifications: Commons copy, applied to the existing agent app, live data from
+the local API, template sections and claims that do not apply removed. The hero
+video and footer banner are still loaded from the template author's Vercel Blob
+storage.
 
 No copied Buzz source files are currently included. If source is transplanted
 later, preserve upstream notices, pin the commit, and mark modifications here.
