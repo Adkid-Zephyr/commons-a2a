@@ -103,3 +103,15 @@ After a meaningful change and its checks: inspect/fetch, commit, push, report SH
 If another contributor pushed concurrently, integrate without rewriting their
 history; do not force-push. Keep changes to the teammate's frontend focused on
 necessary integration and record any API changes here.
+
+## 2026-10-22: homepage + Spider demo integration
+
+User-selected frontend: keep the current Grok Bot-inspired black community
+homepage at `/`; the spider remains the working demonstration at `/demo`.
+The homepage hero/header link there, and Spider links back to the community
+with `dataset`, `owner`, `request`, `mode`, and `tab` query parameters. These
+are UI context only; the API and source replay permissions are unchanged.
+The `frontend` branch is retained without importing its video hero.
+
+Frontend files: `app/page.tsx`, `app/globals.css`, `app/ui/`, and
+`public/spider/`. The `/demo` rewrite is in `next.config.mjs`.

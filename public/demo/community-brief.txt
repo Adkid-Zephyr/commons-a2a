@@ -1,0 +1,242 @@
+SYNTHETIC COMMUNITY — ALL 40 PEOPLE AND PROJECTS ARE FICTIONAL.
+No messages below came from Discord.
+
+Maya | Community organiser
+Context: I organise small London builder meetups. I want practical talks with working demos.
+Goal: Find a speaker on agent payments and introduce compatible builders.
+Skills: community, events, agents
+Availability: available; participation: connect
+
+Leo | Payments builder
+Context: Fictional fixture: built a testnet agent-payment demo. Can explain authorization and payment receipts.
+Goal: Meet frontend collaborators and share practical agent payment experience.
+Skills: payments, agents, backend
+Availability: available; participation: connect
+
+Amina | Frontend engineer
+Context: Fictional fixture: builds accessible React interfaces for agent workflows.
+Goal: Join a small project for two hours and meet backend builders.
+Skills: frontend, react, agents
+Availability: available; participation: connect
+
+Oscar | Protocol researcher
+Context: Fictional fixture: researches payment authorization. Unavailable this week.
+Goal: Share research later; no new meetings this week.
+Skills: payments, agents, research
+Availability: unavailable; participation: connect
+
+Jin | Curious learner
+Context: Interested in agent payments. No verified project yet; just following along.
+Goal: Learn from relevant resources without networking or meeting requests.
+Skills: payments, agents, learning
+Availability: unknown; participation: information_only
+
+Nora | Climate data organiser
+Context: Fictional demonstration profile. Organises small sessions about an open energy-use dashboard. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate an open energy-use dashboard.
+Skills: climate, data visualization, collaboration
+Availability: available; participation: connect
+
+Elias | Climate data builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of an open energy-use dashboard. No real project or real person is represented.
+Goal: Help with data visualization for up to two hours.
+Skills: climate, data visualization, collaboration
+Availability: available; participation: connect
+
+Sana | Climate data researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of an open energy-use dashboard. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: climate, data visualization, collaboration
+Availability: unavailable; participation: connect
+
+Theo | Climate data newcomer
+Context: Fictional demonstration profile. Is learning to build an open energy-use dashboard. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: climate, data visualization, collaboration
+Availability: unknown; participation: connect
+
+Iris | Climate data learner
+Context: Fictional demonstration profile. Follows resources about an open energy-use dashboard. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: climate, data visualization, learning
+Availability: unknown; participation: information_only
+
+Luca | Accessible interfaces organiser
+Context: Fictional demonstration profile. Organises small sessions about a keyboard-first community directory. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate a keyboard-first community directory.
+Skills: accessibility, accessible UI, collaboration
+Availability: available; participation: connect
+
+Mei | Accessible interfaces builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of a keyboard-first community directory. No real project or real person is represented.
+Goal: Help with accessible UI for up to two hours.
+Skills: accessibility, accessible UI, collaboration
+Availability: available; participation: connect
+
+Amir | Accessible interfaces researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of a keyboard-first community directory. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: accessibility, accessible UI, collaboration
+Availability: unavailable; participation: connect
+
+Zoe | Accessible interfaces newcomer
+Context: Fictional demonstration profile. Is learning to build a keyboard-first community directory. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: accessibility, accessible UI, collaboration
+Availability: unknown; participation: connect
+
+Ben | Accessible interfaces learner
+Context: Fictional demonstration profile. Follows resources about a keyboard-first community directory. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: accessibility, accessible UI, learning
+Availability: unknown; participation: information_only
+
+Ada | Private AI organiser
+Context: Fictional demonstration profile. Organises small sessions about a local document assistant. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate a local document assistant.
+Skills: privacy, private inference, collaboration
+Availability: available; participation: connect
+
+Ravi | Private AI builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of a local document assistant. No real project or real person is represented.
+Goal: Help with private inference for up to two hours.
+Skills: privacy, private inference, collaboration
+Availability: available; participation: connect
+
+Lina | Private AI researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of a local document assistant. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: privacy, private inference, collaboration
+Availability: unavailable; participation: connect
+
+Hugo | Private AI newcomer
+Context: Fictional demonstration profile. Is learning to build a local document assistant. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: privacy, private inference, collaboration
+Availability: unknown; participation: connect
+
+Eva | Private AI learner
+Context: Fictional demonstration profile. Follows resources about a local document assistant. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: privacy, private inference, learning
+Availability: unknown; participation: information_only
+
+Omar | Robotics organiser
+Context: Fictional demonstration profile. Organises small sessions about a tabletop robot simulator. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate a tabletop robot simulator.
+Skills: robotics, simulation, collaboration
+Availability: available; participation: connect
+
+Tessa | Robotics builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of a tabletop robot simulator. No real project or real person is represented.
+Goal: Help with simulation for up to two hours.
+Skills: robotics, simulation, collaboration
+Availability: available; participation: connect
+
+Noah | Robotics researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of a tabletop robot simulator. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: robotics, simulation, collaboration
+Availability: unavailable; participation: connect
+
+Yuna | Robotics newcomer
+Context: Fictional demonstration profile. Is learning to build a tabletop robot simulator. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: robotics, simulation, collaboration
+Availability: unknown; participation: connect
+
+Finn | Robotics learner
+Context: Fictional demonstration profile. Follows resources about a tabletop robot simulator. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: robotics, simulation, learning
+Availability: unknown; participation: information_only
+
+Aria | Learning tools organiser
+Context: Fictional demonstration profile. Organises small sessions about a peer-learning planner. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate a peer-learning planner.
+Skills: education, learning design, collaboration
+Availability: available; participation: connect
+
+Milo | Learning tools builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of a peer-learning planner. No real project or real person is represented.
+Goal: Help with learning design for up to two hours.
+Skills: education, learning design, collaboration
+Availability: available; participation: connect
+
+Priya | Learning tools researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of a peer-learning planner. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: education, learning design, collaboration
+Availability: unavailable; participation: connect
+
+Leon | Learning tools newcomer
+Context: Fictional demonstration profile. Is learning to build a peer-learning planner. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: education, learning design, collaboration
+Availability: unknown; participation: connect
+
+Ruby | Learning tools learner
+Context: Fictional demonstration profile. Follows resources about a peer-learning planner. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: education, learning design, learning
+Availability: unknown; participation: information_only
+
+Jules | Data tooling organiser
+Context: Fictional demonstration profile. Organises small sessions about an event-data quality checker. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate an event-data quality checker.
+Skills: data-tools, data pipelines, collaboration
+Availability: available; participation: connect
+
+Nia | Data tooling builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of an event-data quality checker. No real project or real person is represented.
+Goal: Help with data pipelines for up to two hours.
+Skills: data-tools, data pipelines, collaboration
+Availability: available; participation: connect
+
+Kai | Data tooling researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of an event-data quality checker. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: data-tools, data pipelines, collaboration
+Availability: unavailable; participation: connect
+
+Esme | Data tooling newcomer
+Context: Fictional demonstration profile. Is learning to build an event-data quality checker. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: data-tools, data pipelines, collaboration
+Availability: unknown; participation: connect
+
+Dara | Data tooling learner
+Context: Fictional demonstration profile. Follows resources about an event-data quality checker. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: data-tools, data pipelines, learning
+Availability: unknown; participation: information_only
+
+Anya | Community operations organiser
+Context: Fictional demonstration profile. Organises small sessions about an accessible event run-sheet. No real project or real person is represented.
+Goal: Find a collaborator to demonstrate an accessible event run-sheet.
+Skills: community-ops, event operations, collaboration
+Availability: available; participation: connect
+
+Remy | Community operations builder
+Context: Fictional demonstration profile. Has worked on a synthetic example of an accessible event run-sheet. No real project or real person is represented.
+Goal: Help with event operations for up to two hours.
+Skills: community-ops, event operations, collaboration
+Availability: available; participation: connect
+
+Sofia | Community operations researcher
+Context: Fictional demonstration profile. Has worked on a synthetic example of an accessible event run-sheet. Not available for new meetings this week.
+Goal: Share a reading list; decline new meetings this week.
+Skills: community-ops, event operations, collaboration
+Availability: unavailable; participation: connect
+
+Ezra | Community operations newcomer
+Context: Fictional demonstration profile. Is learning to build an accessible event run-sheet. Experience and current availability require clarification.
+Goal: Ask about a beginner-sized contribution before committing.
+Skills: community-ops, event operations, collaboration
+Availability: unknown; participation: connect
+
+Cleo | Community operations learner
+Context: Fictional demonstration profile. Follows resources about an accessible event run-sheet. No real project or real person is represented.
+Goal: Receive relevant resources without introductions or meetings.
+Skills: community-ops, event operations, learning
+Availability: unknown; participation: information_only

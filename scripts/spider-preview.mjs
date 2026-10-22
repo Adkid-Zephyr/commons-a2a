@@ -9,6 +9,7 @@ createServer(async(req,res)=>{
   const host=req.headers.host;
   if(!['127.0.0.1:3403','localhost:3403'].includes(host)){res.writeHead(403);res.end('Local preview only');return;}
   const url=new URL(req.url,`http://${host}`);
+  if(['/', '/index.html', '/dashboard.html'].includes(url.pathname)){res.writeHead(302,{Location:`http://127.0.0.1:3402/demo${url.search}`});res.end();return;}
   if(url.pathname==='/api'){
    if(!['GET','POST'].includes(req.method)){res.writeHead(405);res.end();return;}
    if(req.method==='POST'&&req.headers.origin!==`http://${host}`){res.writeHead(403);res.end('Same-origin only');return;}

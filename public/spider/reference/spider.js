@@ -52,11 +52,11 @@ function drawLegs(ctx, time, gaitPhase, speed, localVelocity, reducedMotion) {
       const {root,knee,ankle,foot,lift}=pose;poses.push({side,index,...pose});
       const spread=Math.sin((index+.75)/8.5*Math.PI);
       // Broad, faint under-stroke and a very fine luminous center.
-      path(ctx, [root, knee, ankle, foot], 'rgba(89,188,170,0.14)', 2.3);
-      path(ctx, [root, knee, ankle, foot], `rgba(171,235,220,${0.6 + spread * 0.19})`, 1.05);
-      ctx.fillStyle = lift > 0.35 ? 'rgba(190,241,225,0.72)' : 'rgba(232,255,246,0.96)';
+      path(ctx, [root, knee, ankle, foot], 'rgba(191,148,178,0.14)', 2.3);
+      path(ctx, [root, knee, ankle, foot], `rgba(232,207,226,${0.6 + spread * 0.19})`, 1.05);
+      ctx.fillStyle = lift > 0.35 ? 'rgba(239,216,231,0.72)' : 'rgba(250,240,247,0.96)';
       ctx.fillRect(foot.x - 1.2, foot.y - 1.2, 2.4, 2.4);
-      ctx.fillStyle = 'rgba(127,206,188,0.43)';
+      ctx.fillStyle = 'rgba(202,167,191,0.43)';
       ctx.fillRect(knee.x - 0.55, knee.y - 0.55, 1.1, 1.1);
     }
   }
@@ -77,7 +77,7 @@ function drawFeelers(ctx, time, reducedMotion, activeCount = 0) {
     ctx.beginPath();
     ctx.moveTo(root.x, root.y);
     ctx.quadraticCurveTo(bend.x, bend.y, tip.x, tip.y);
-    ctx.strokeStyle = 'rgba(117,184,172,0.24)';
+    ctx.strokeStyle = 'rgba(181,153,174,0.24)';
     ctx.lineWidth = 0.6;
     ctx.stroke();
     // Spaced lights make the finer appendages look different from the legs.

@@ -3,7 +3,7 @@
 import {routeSlot} from './reference/motion.js';
 export const ROUTES=['code','model','topic','you'];
 export const LABELS={code:'people',model:'signals',topic:'keywords',you:'events'};
-export const COLORS={code:'#48d7a6',model:'#e18c78',topic:'#a89ce5',you:'#f4cf4d'};
+export const COLORS={code:'#b5c8bd',model:'#d5afa2',topic:'#b7add5',you:'#d8c8a3'};
 const STOP=new Set('a an the is are was were be been of for to in on at and or but with it this that i we you my our your have has can do not only from as by into all'.split(' '));
 const clean=s=>s.toLowerCase().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'');
 function wrap(text,width=36){const out=[];let row='';for(const word of text.split(/\s+/)){if(row&&row.length+word.length+1>width){out.push(row);row='';}row+=(row?' ':'')+word;}if(row)out.push(row);return out;}

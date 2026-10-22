@@ -26,3 +26,32 @@ installed packages and lockfile. Star count is a selection filter, not a quality
 
 No copied Buzz source files are currently included. If source is transplanted
 later, preserve upstream notices, pin the commit, and mark modifications here.
+
+## Visual reference and event partner wordmarks (2026-10-22)
+
+UI reference: https://gb-community-eng-hackathon-10-2026.teamdeel.workers.dev/hackathon#tracks
+
+The partner SVG files in `public/brand/` were retrieved from that site's
+`/assets/partners/` directory: `supabase.svg`, `cognee-logotype-white.svg`,
+`zero-logo-white.svg`, `notion-logo-white.svg`, and
+`cursor-lockup-transparent.svg`. They identify the hackathon's technology
+partners, not Commons sponsors or integrations. Brand artwork and trademarks
+remain the property of the respective owners; the project's Apache-2.0 license
+does not grant trademark rights or relicense these brand assets.
+
+The Commons mark, agent avatar shapes, network SVG and layout implementation
+were authored for this project. The reference GIF is studied, not bundled.
+
+## Geist fonts
+
+Geist Sans and Geist Mono font binaries in `public/fonts/` are sourced from the
+installed Next.js package (`next/dist/next-devtools/server/font/`). Geist is
+provided under the SIL Open Font License 1.1; see `public/fonts/OFL.txt`.
+Upstream: https://github.com/vercel/geist-font
+
+## Commons Spider
+
+The bundled Canvas renderer and mechanical spider are adapted from
+Kirito14IT/prompt-spider-ui (MIT). See `public/spider/NOTICE.md` and
+`public/spider/vendor/LICENSE`. This integration changes colors, branding,
+and navigation while retaining the original layout and notices.

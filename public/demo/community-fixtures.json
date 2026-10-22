@@ -1,0 +1,989 @@
+{
+  "version": 1,
+  "provenance": "Wholly fictional synthetic fixture data; not organizer or Discord records",
+  "members": [
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Community organiser",
+      "context": "I organise small London builder meetups. I want practical talks with working demos.",
+      "goals": "Find a speaker on agent payments and introduce compatible builders.",
+      "skills": [
+        "community",
+        "events",
+        "agents"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": []
+    },
+    {
+      "id": "leo",
+      "name": "Leo",
+      "role": "Payments builder",
+      "context": "Fictional fixture: built a testnet agent-payment demo. Can explain authorization and payment receipts.",
+      "goals": "Meet frontend collaborators and share practical agent payment experience.",
+      "skills": [
+        "payments",
+        "agents",
+        "backend"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "leo-demo",
+          "title": "Agent payment demo — fictional fixture",
+          "url": "https://example.com/fixtures/leo-payment-demo",
+          "summary": "Synthetic test case: authorization and receipts for agent payments.",
+          "kind": "synthetic"
+        }
+      ]
+    },
+    {
+      "id": "amina",
+      "name": "Amina",
+      "role": "Frontend engineer",
+      "context": "Fictional fixture: builds accessible React interfaces for agent workflows.",
+      "goals": "Join a small project for two hours and meet backend builders.",
+      "skills": [
+        "frontend",
+        "react",
+        "agents"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "amina-ui",
+          "title": "Agent dashboard — fictional fixture",
+          "url": "https://example.com/fixtures/amina-dashboard",
+          "summary": "Synthetic test case: React UI for agent collaboration.",
+          "kind": "synthetic"
+        }
+      ]
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar",
+      "role": "Protocol researcher",
+      "context": "Fictional fixture: researches payment authorization. Unavailable this week.",
+      "goals": "Share research later; no new meetings this week.",
+      "skills": [
+        "payments",
+        "agents",
+        "research"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "oscar-note",
+          "title": "Protocol note — fictional fixture",
+          "url": "https://example.com/fixtures/oscar-note",
+          "summary": "Synthetic test case: agent payment authorization research.",
+          "kind": "synthetic"
+        }
+      ]
+    },
+    {
+      "id": "jin",
+      "name": "Jin",
+      "role": "Curious learner",
+      "context": "Interested in agent payments. No verified project yet; just following along.",
+      "goals": "Learn from relevant resources without networking or meeting requests.",
+      "skills": [
+        "payments",
+        "agents",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": []
+    },
+    {
+      "id": "fixture-climate-1",
+      "name": "Nora",
+      "role": "Climate data organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about an open energy-use dashboard. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate an open energy-use dashboard.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-climate-2",
+      "name": "Elias",
+      "role": "Climate data builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an open energy-use dashboard. No real project or real person is represented.",
+      "goals": "Help with data visualization for up to two hours.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-climate-2-example",
+          "title": "Climate data prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-climate-2",
+          "summary": "Synthetic an open energy-use dashboard example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-climate-3",
+      "name": "Sana",
+      "role": "Climate data researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an open energy-use dashboard. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-climate-3-example",
+          "title": "Climate data prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-climate-3",
+          "summary": "Synthetic an open energy-use dashboard example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-climate-4",
+      "name": "Theo",
+      "role": "Climate data newcomer",
+      "context": "Fictional demonstration profile. Is learning to build an open energy-use dashboard. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-climate-5",
+      "name": "Iris",
+      "role": "Climate data learner",
+      "context": "Fictional demonstration profile. Follows resources about an open energy-use dashboard. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "climate",
+        "data visualization",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-accessibility-1",
+      "name": "Luca",
+      "role": "Accessible interfaces organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a keyboard-first community directory. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a keyboard-first community directory.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-accessibility-2",
+      "name": "Mei",
+      "role": "Accessible interfaces builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a keyboard-first community directory. No real project or real person is represented.",
+      "goals": "Help with accessible UI for up to two hours.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-accessibility-2-example",
+          "title": "Accessible interfaces prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-accessibility-2",
+          "summary": "Synthetic a keyboard-first community directory example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-accessibility-3",
+      "name": "Amir",
+      "role": "Accessible interfaces researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a keyboard-first community directory. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-accessibility-3-example",
+          "title": "Accessible interfaces prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-accessibility-3",
+          "summary": "Synthetic a keyboard-first community directory example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-accessibility-4",
+      "name": "Zoe",
+      "role": "Accessible interfaces newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a keyboard-first community directory. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-accessibility-5",
+      "name": "Ben",
+      "role": "Accessible interfaces learner",
+      "context": "Fictional demonstration profile. Follows resources about a keyboard-first community directory. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "accessibility",
+        "accessible UI",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-privacy-1",
+      "name": "Ada",
+      "role": "Private AI organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a local document assistant. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a local document assistant.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-privacy-2",
+      "name": "Ravi",
+      "role": "Private AI builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a local document assistant. No real project or real person is represented.",
+      "goals": "Help with private inference for up to two hours.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-privacy-2-example",
+          "title": "Private AI prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-privacy-2",
+          "summary": "Synthetic a local document assistant example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-privacy-3",
+      "name": "Lina",
+      "role": "Private AI researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a local document assistant. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-privacy-3-example",
+          "title": "Private AI prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-privacy-3",
+          "summary": "Synthetic a local document assistant example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-privacy-4",
+      "name": "Hugo",
+      "role": "Private AI newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a local document assistant. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-privacy-5",
+      "name": "Eva",
+      "role": "Private AI learner",
+      "context": "Fictional demonstration profile. Follows resources about a local document assistant. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "privacy",
+        "private inference",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-robotics-1",
+      "name": "Omar",
+      "role": "Robotics organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a tabletop robot simulator. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a tabletop robot simulator.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-robotics-2",
+      "name": "Tessa",
+      "role": "Robotics builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a tabletop robot simulator. No real project or real person is represented.",
+      "goals": "Help with simulation for up to two hours.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-robotics-2-example",
+          "title": "Robotics prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-robotics-2",
+          "summary": "Synthetic a tabletop robot simulator example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-robotics-3",
+      "name": "Noah",
+      "role": "Robotics researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a tabletop robot simulator. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-robotics-3-example",
+          "title": "Robotics prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-robotics-3",
+          "summary": "Synthetic a tabletop robot simulator example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-robotics-4",
+      "name": "Yuna",
+      "role": "Robotics newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a tabletop robot simulator. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-robotics-5",
+      "name": "Finn",
+      "role": "Robotics learner",
+      "context": "Fictional demonstration profile. Follows resources about a tabletop robot simulator. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "robotics",
+        "simulation",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-education-1",
+      "name": "Aria",
+      "role": "Learning tools organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about a peer-learning planner. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate a peer-learning planner.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-education-2",
+      "name": "Milo",
+      "role": "Learning tools builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a peer-learning planner. No real project or real person is represented.",
+      "goals": "Help with learning design for up to two hours.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-education-2-example",
+          "title": "Learning tools prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-education-2",
+          "summary": "Synthetic a peer-learning planner example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-education-3",
+      "name": "Priya",
+      "role": "Learning tools researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of a peer-learning planner. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-education-3-example",
+          "title": "Learning tools prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-education-3",
+          "summary": "Synthetic a peer-learning planner example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-education-4",
+      "name": "Leon",
+      "role": "Learning tools newcomer",
+      "context": "Fictional demonstration profile. Is learning to build a peer-learning planner. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "education",
+        "learning design",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-education-5",
+      "name": "Ruby",
+      "role": "Learning tools learner",
+      "context": "Fictional demonstration profile. Follows resources about a peer-learning planner. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "education",
+        "learning design",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-data-tools-1",
+      "name": "Jules",
+      "role": "Data tooling organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about an event-data quality checker. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate an event-data quality checker.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-data-tools-2",
+      "name": "Nia",
+      "role": "Data tooling builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an event-data quality checker. No real project or real person is represented.",
+      "goals": "Help with data pipelines for up to two hours.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-data-tools-2-example",
+          "title": "Data tooling prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-data-tools-2",
+          "summary": "Synthetic an event-data quality checker example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-data-tools-3",
+      "name": "Kai",
+      "role": "Data tooling researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an event-data quality checker. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-data-tools-3-example",
+          "title": "Data tooling prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-data-tools-3",
+          "summary": "Synthetic an event-data quality checker example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-data-tools-4",
+      "name": "Esme",
+      "role": "Data tooling newcomer",
+      "context": "Fictional demonstration profile. Is learning to build an event-data quality checker. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-data-tools-5",
+      "name": "Dara",
+      "role": "Data tooling learner",
+      "context": "Fictional demonstration profile. Follows resources about an event-data quality checker. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "data-tools",
+        "data pipelines",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-community-ops-1",
+      "name": "Anya",
+      "role": "Community operations organiser",
+      "context": "Fictional demonstration profile. Organises small sessions about an accessible event run-sheet. No real project or real person is represented.",
+      "goals": "Find a collaborator to demonstrate an accessible event run-sheet.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-community-ops-2",
+      "name": "Remy",
+      "role": "Community operations builder",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an accessible event run-sheet. No real project or real person is represented.",
+      "goals": "Help with event operations for up to two hours.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "available",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-community-ops-2-example",
+          "title": "Community operations prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-community-ops-2",
+          "summary": "Synthetic an accessible event run-sheet example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-community-ops-3",
+      "name": "Sofia",
+      "role": "Community operations researcher",
+      "context": "Fictional demonstration profile. Has worked on a synthetic example of an accessible event run-sheet. Not available for new meetings this week.",
+      "goals": "Share a reading list; decline new meetings this week.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "unavailable",
+      "participation": "connect",
+      "evidence": [
+        {
+          "id": "fixture-community-ops-3-example",
+          "title": "Community operations prototype — fictional fixture",
+          "url": "https://example.com/commons-fixtures/fixture-community-ops-3",
+          "summary": "Synthetic an accessible event run-sheet example for workflow testing. No externally verified achievement.",
+          "kind": "synthetic"
+        }
+      ],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-community-ops-4",
+      "name": "Ezra",
+      "role": "Community operations newcomer",
+      "context": "Fictional demonstration profile. Is learning to build an accessible event run-sheet. Experience and current availability require clarification.",
+      "goals": "Ask about a beginner-sized contribution before committing.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "collaboration"
+      ],
+      "availability": "unknown",
+      "participation": "connect",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    },
+    {
+      "id": "fixture-community-ops-5",
+      "name": "Cleo",
+      "role": "Community operations learner",
+      "context": "Fictional demonstration profile. Follows resources about an accessible event run-sheet. No real project or real person is represented.",
+      "goals": "Receive relevant resources without introductions or meetings.",
+      "skills": [
+        "community-ops",
+        "event operations",
+        "learning"
+      ],
+      "availability": "unknown",
+      "participation": "information_only",
+      "evidence": [],
+      "privateNote": "",
+      "consent": true,
+      "synthetic": true
+    }
+  ],
+  "scenarios": [
+    {
+      "key": "expanded-v1-climate-collaborator",
+      "ownerId": "fixture-climate-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on an open energy-use dashboard",
+      "details": "Fictional scenario: a two-hour session to improve an open energy-use dashboard, focusing on data visualization. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "climate"
+      ]
+    },
+    {
+      "key": "expanded-v1-climate-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical climate data speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of an open energy-use dashboard plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "climate"
+      ]
+    },
+    {
+      "key": "expanded-v1-accessibility-collaborator",
+      "ownerId": "fixture-accessibility-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on a keyboard-first community directory",
+      "details": "Fictional scenario: a two-hour session to improve a keyboard-first community directory, focusing on accessible UI. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "accessibility"
+      ]
+    },
+    {
+      "key": "expanded-v1-accessibility-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical accessible interfaces speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of a keyboard-first community directory plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "accessibility"
+      ]
+    },
+    {
+      "key": "expanded-v1-privacy-collaborator",
+      "ownerId": "fixture-privacy-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on a local document assistant",
+      "details": "Fictional scenario: a two-hour session to improve a local document assistant, focusing on private inference. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "privacy"
+      ]
+    },
+    {
+      "key": "expanded-v1-privacy-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical private ai speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of a local document assistant plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "privacy"
+      ]
+    },
+    {
+      "key": "expanded-v1-robotics-collaborator",
+      "ownerId": "fixture-robotics-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on a tabletop robot simulator",
+      "details": "Fictional scenario: a two-hour session to improve a tabletop robot simulator, focusing on simulation. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "robotics"
+      ]
+    },
+    {
+      "key": "expanded-v1-robotics-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical robotics speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of a tabletop robot simulator plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "robotics"
+      ]
+    },
+    {
+      "key": "expanded-v1-education-collaborator",
+      "ownerId": "fixture-education-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on a peer-learning planner",
+      "details": "Fictional scenario: a two-hour session to improve a peer-learning planner, focusing on learning design. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "education"
+      ]
+    },
+    {
+      "key": "expanded-v1-education-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical learning tools speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of a peer-learning planner plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "education"
+      ]
+    },
+    {
+      "key": "expanded-v1-data-tools-collaborator",
+      "ownerId": "fixture-data-tools-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on an event-data quality checker",
+      "details": "Fictional scenario: a two-hour session to improve an event-data quality checker, focusing on data pipelines. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "data-tools"
+      ]
+    },
+    {
+      "key": "expanded-v1-data-tools-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical data tooling speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of an event-data quality checker plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "data-tools"
+      ]
+    },
+    {
+      "key": "expanded-v1-community-ops-collaborator",
+      "ownerId": "fixture-community-ops-1",
+      "kind": "collaborator",
+      "title": "Simulation: collaborate on an accessible event run-sheet",
+      "details": "Fictional scenario: a two-hour session to improve an accessible event run-sheet, focusing on event operations. Ask about fit and boundaries; no date or participation is confirmed. No external messages.",
+      "topics": [
+        "community-ops"
+      ]
+    },
+    {
+      "key": "expanded-v1-community-ops-speaker",
+      "ownerId": "maya",
+      "kind": "speaker",
+      "title": "Simulation: a practical community operations speaker",
+      "details": "Fictional scenario: a 15-minute walkthrough of an accessible event run-sheet plus five minutes of questions. Experience, dates and willingness must be checked; no real event or invitation is created.",
+      "topics": [
+        "community-ops"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,9 @@
-# Commons Spider — 原版 dashboard 方案
+# Commons Spider — 主站演示画面
 
-这是与另一条前端工作线分开的方案。独占写入范围：`public/spider/`、
+已整合进 Commons 主站：主页保持黑色社区 UI，通过 `See agents in action`
+进入 `/demo`。蜘蛛原有布局保留，配色和品牌与主站统一。
+
+原始方案的写入范围：`public/spider/`、
 `scripts/spider-preview.mjs`、两个 spider 测试文件、本说明及专属截图。
 没有修改另一条方案的 app/page.tsx、app/ui、全局样式或品牌资源。
 
@@ -12,8 +15,8 @@
 node scripts/spider-preview.mjs
 ```
 
-打开 http://127.0.0.1:3403/ 。独立预览服务只绑定 loopback，并把同源
-`/api` 请求转到 3402；不另开模型配置或 Discord 权限。
+直接打开 http://127.0.0.1:3402/demo 。旧的 3403 预览入口在重启后也会跳转到
+主站演示页。两者使用相同后端，不另开模型配置或 Discord 权限。
 
 主页面是用户要求的**原版蜘蛛 dashboard 复刻适配**：左侧长群聊文本、
 机械蜘蛛、密集蛛网、逐词抓取与飞行、右侧四路分类、底部图表、时间轴、

@@ -1,6 +1,14 @@
 # Real-source replay and Discord read-only ingestion
 
-## Current scope
+## Latest refresh
+
+The later browser import expanded the snapshot to 26 unique observed messages
+and 18 anonymized profiles, preserving the earlier history. Five source request
+templates are available. New execution is labelled rehearsal; the prior real-model
+source run remains selectable. See [DEMO_DATA.md](DEMO_DATA.md) for counts,
+provenance, private file handling and the presentation sequence.
+
+## Original scope
 
 The existing Chrome login was used to read the hackathon's `#team-up` channel.
 Six visible, relevant team-up messages were saved under ignored

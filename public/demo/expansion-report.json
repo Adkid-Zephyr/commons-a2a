@@ -1,0 +1,15 @@
+{
+  "addedMembers": 35,
+  "totalMembers": 40,
+  "newRuns": 14,
+  "expandedRequests": 14,
+  "expandedSessions": 42,
+  "expandedEvents": 281,
+  "outcomes": {
+    "awaiting_approval": 14,
+    "declined": 15,
+    "needs_info": 13
+  },
+  "realModelCalls": 0,
+  "externalMessages": 0
+}

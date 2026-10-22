@@ -45,7 +45,8 @@ npm ci
 ```
 
 建议在自己的前端分支工作，不要强推 main。打开 http://127.0.0.1:3402。
-前端入口是 app/page.tsx、app/globals.css；独立展示页是 public/showcase/。
+前端入口是 app/page.tsx、app/globals.css；工作演示入口是 `/demo`，源码在
+public/spider/。原 public/showcase/ 入口保留为跳转。
 密钥和源数据不通过 Git 分享。新克隆只有 synthetic 数据集。
 
 ## 接口

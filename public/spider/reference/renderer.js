@@ -6,9 +6,9 @@ const WIDTH = 1080;
 const HEIGHT = 1350;
 const MONO = '"SFMono-Regular", Consolas, "Liberation Mono", monospace';
 const PALETTE = {
-  background: '#080909', panel: '#101013', panelTop: '#19191c', border: '#29292e',
+  background: '#09090b', panel: '#101013', panelTop: '#19191c', border: '#29292e',
   white: '#e8e8e9', muted: '#77767d', dim: '#3a3a41',
-  code: '#48d7a6', model: '#e18c78', topic: '#a89ce5', you: '#f4cf4d', pink: '#f23c83',
+  code: '#b5c8bd', model: '#d5afa2', topic: '#b7add5', you: '#d8c8a3', pink: '#dedbd5',
 };
 const ROUTES = ['code', 'model', 'you'];
 const QUESTIONS = ['who can help?', 'useful information?', 'shared interest?', 'event mentioned?', 'source available?', 'who is involved?', 'needs a person?'];
