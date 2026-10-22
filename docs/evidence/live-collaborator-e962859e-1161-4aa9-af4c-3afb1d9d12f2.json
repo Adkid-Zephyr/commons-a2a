@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-22T19:09:02.102Z",
+  "scenario": "collaborator",
+  "request": {
+    "ownerId": "leo",
+    "kind": "collaborator",
+    "title": "Live test: frontend help for a payment demo",
+    "details": "I want to improve the accessibility of an agent-payment demo. Need a React collaborator for two hours this week; no ongoing maintenance. Please suggest a narrow deliverable and clarify the scope if necessary. Final commitment requires both owners to approve.",
+    "topics": [
+      "frontend",
+      "react"
+    ],
+    "mode": "live",
+    "idempotencyKey": "62c63431-abeb-4ea1-8f3b-d37f0dcde1e7",
+    "sourceUrl": "",
+    "authorized": true,
+    "id": "e962859e-1161-4aa9-af4c-3afb1d9d12f2",
+    "createdAt": "2026-10-22T19:08:25.912Z",
+    "status": "completed_with_errors"
+  },
+  "model": {
+    "configured": true,
+    "name": "grok-4.7-build-fast"
+  },
+  "sessions": [
+    {
+      "id": "24644575-6567-40c4-a1cc-df8341936133",
+      "requestId": "e962859e-1161-4aa9-af4c-3afb1d9d12f2",
+      "ownerId": "leo",
+      "candidateId": "amina",
+      "createdAt": "2026-10-22T19:08:25.914Z",
+      "status": "error",
+      "turns": 1,
+      "approvals": {
+        "leo": "pending",
+        "amina": "pending"
+      },
+      "evidenceIds": [],
+      "error": "Agent returned an invalid action for this turn."
+    }
+  ],
+  "events": [
+    {
+      "id": "2ab60c95-d033-4835-9615-96f9a06fb667",
+      "seq": 44,
+      "at": "2026-10-22T19:08:25.914Z",
+      "requestId": "e962859e-1161-4aa9-af4c-3afb1d9d12f2",
+      "sessionId": "24644575-6567-40c4-a1cc-df8341936133",
+      "from": "leo",
+      "to": "amina",
+      "type": "executing",
+      "message": "Leo's agent is processing its own context.",
+      "mode": "live",
+      "signature": "LotFBT9ZTRQ7GSzP167WBB91eOJMeAGUvAOfpwcdv8t45iZgVv1RuOFpn/FQfJq5fnMFzKu1P3TZuWYtaco4Cg=="
+    },
+    {
+      "id": "058776a8-915e-44e3-bc47-eb72a3dc53b8",
+      "seq": 45,
+      "at": "2026-10-22T19:08:39.030Z",
+      "requestId": "e962859e-1161-4aa9-af4c-3afb1d9d12f2",
+      "sessionId": "24644575-6567-40c4-a1cc-df8341936133",
+      "from": "leo",
+      "to": "amina",
+      "type": "inquiry",
+      "message": "Amina, I’m Leo’s delegate and I’m only trying to understand the request, not decide whether anyone is a fit yet. For a two-hour accessibility pass on the agent-payment demo, which flows should be in scope—authorization, payment receipts, errors, or something narrower—and is the app already React with a specific component or route in mind? What would you treat as a complete narrow deliverable (for example, keyboard and screen-reader fixes on one screen, or a short issue list plus one patched component), and which day this week are you picturing? Any real commitment would still need both owners to approve.",
+      "reason": "Asking Amina to pin down accessibility scope, React surface, and the two-hour deliverable before any fit discussion.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "0a93308d-9582-40f4-a8fe-cc93e1466e13",
+        "providerId": "1c474838-3f9e-9903-9559-feef36121d53",
+        "startedAt": "2026-10-22T19:08:25.915Z",
+        "durationMs": 13115,
+        "inputHash": "9207eb73ace2a60b4a93f7586c396905ce06826bc9b575e811fb8bc3bb77dce6",
+        "agentId": "leo",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 1076,
+        "total_tokens": 2903,
+        "prompt_tokens": 1827,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 907
+        }
+      },
+      "signature": "Vzk9H1+k0oukqyFlQo7+bJq8aWnLel00x6UPy3MOBTXO0NN5hvc2mOT4ke2u95NdNQ3eTFCTaCOtf+63uVNjCg=="
+    },
+    {
+      "id": "0f4ee0ff-b635-4f68-9199-ea62af2bcf9a",
+      "seq": 46,
+      "at": "2026-10-22T19:08:39.033Z",
+      "requestId": "e962859e-1161-4aa9-af4c-3afb1d9d12f2",
+      "sessionId": "24644575-6567-40c4-a1cc-df8341936133",
+      "from": "amina",
+      "to": "leo",
+      "type": "executing",
+      "message": "Amina's agent is processing its own context.",
+      "mode": "live",
+      "signature": "56RGs/dbFQ6LKUDqTzeYcvO6F1UWxNPNKbSsAwwwWQwNv1dxHMov68MDbfudEACe3NBAt6EAGeimWgTFrBE2AA=="
+    },
+    {
+      "id": "ec0c2a16-ad7c-427e-b069-5e6d0ba1119f",
+      "seq": 47,
+      "at": "2026-10-22T19:09:00.399Z",
+      "requestId": "e962859e-1161-4aa9-af4c-3afb1d9d12f2",
+      "sessionId": "24644575-6567-40c4-a1cc-df8341936133",
+      "type": "error",
+      "message": "Agent returned an invalid action for this turn.",
+      "mode": "live"
+    }
+  ],
+  "summary": {
+    "status": "completed_with_errors",
+    "calls": 1,
+    "agents": [
+      "leo"
+    ],
+    "providerReportedTokens": 2903,
+    "unknownUsageCalls": 0,
+    "externalCommunityWrites": 0
+  }
+}

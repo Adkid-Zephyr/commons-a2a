@@ -1,0 +1,68 @@
+# Validation — 2026-10-22
+
+## Live-model update
+
+- Connected the existing loopback Quotio proxy, `grok-4.7-build-fast`; requested
+  and provider-reported model names matched in recorded successful calls.
+- The UI defaults to live mode. All member data remains synthetic; no Discord
+  connection or external community action was created.
+- Speaker run `bae65a80-85e0-487f-b89e-c58f2a8dd728`: **passed**, 6 independent
+  calls across Maya, Leo, Amina and Oscar; 15,648 provider-reported tokens.
+  Leo proposed owner review; Amina declined for missing relevant expertise;
+  Oscar declined for availability; Jin received an information-only digest.
+- First collaborator run `e962859e-1161-4aa9-af4c-3afb1d9d12f2`: **failed** because
+  the candidate returned an invalid phase action. Evidence is retained; its
+  rejected call usage was not captured by the initial validator, so total usage
+  for this failed run is unknown. Nothing was approved or handed off.
+- Fixed the model contract by explicitly listing the valid actions for the
+  current phase; added failed-response call metadata and a regression test.
+- Collaborator rerun `6b4703af-8598-41ca-a417-562659d9ca40`: **passed**, 2 independent
+  calls; 5,642 provider-reported tokens. Amina proposed a bounded two-hour React
+  accessibility pass, with specific scope limits and owner approval outstanding.
+- `scripts/audit-live.mjs` reconstructed the scoped input for all 8 successful
+  calls and verified input hashes and agent signatures. See
+  `evidence/live-context-audit.json`. This verifies the application's scoped
+  request construction, not a provider's internal processing or remote key custody.
+- **13 automated tests passed**, including the live adapter against a local HTTP
+  stub (separate requests, metadata, HTTP failure, malformed JSON, truncation,
+  redirects), cooldown separation, queued-job exclusion and invalid-action logs.
+- Production build / TypeScript checks passed after these changes.
+
+Successful run evidence is in `docs/evidence/live-*.json`. None of the live runs
+automatically approved an introduction; owner decisions remain pending.
+
+## Passed
+
+- Node 26.7.0; npm installation completed with zero audit findings at install.
+- `npm test`: 9 behavior tests passed. Separate contexts and pair history;
+  private-note exclusion; information-only handling; decline; double approval;
+  outsider rejection; seven-day suppression; idempotent execution and reload;
+  model failures; invalid evidence rejection; signature tamper detection;
+  onboarding consent; profile-change approval withdrawal.
+- `npm run build`: successful production compilation and TypeScript check.
+- Local HTTP page returned 200.
+- In-app browser: published a synthetic speaker request, saw per-agent
+  inquiry/clarification/reply/proposal and refusal records, approved as Maya,
+  confirmed no room after one approval, switched to Leo, approved and observed
+  the local human room, then sent a local QA message.
+- Inspected actual browser rendering of network, inbox and human handoff.
+- Final graph layout rebuild passed; screenshot saved at
+  `docs/screenshots/a2a-network.png`.
+
+Browser rehearsal used the initial deterministic matching rule. A later
+regression tightened primary-topic suitability so Amina declines payment-speaker
+requests; automated tests verify this change. Prior local runs remain historical
+records and are not silently rewritten.
+
+## Not yet verified / not implemented
+
+- Live LLM workflow validated only with synthetic profiles, not real members.
+- Organizer member dataset and Discord read: no dataset/channel supplied.
+- Member evidence authenticity and real-person willingness.
+- Supabase, production authentication, external A2A interoperability,
+  recurring scheduling, a month of operation, cloud deployment.
+- External writes: none implemented or performed.
+
+All fixture people and evidence claims are synthetic. A sandbox operator can
+switch identities; this is not production authorization. Local event signing
+does not prove a remote human independently controlled the agent key.

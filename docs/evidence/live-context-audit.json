@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-10-22T19:11:34.895Z",
+  "note": "Reconstructed from unchanged synthetic public profiles and each pair history. No model calls.",
+  "reports": [
+    {
+      "path": "docs/evidence/live-speaker-bae65a80-85e0-487f-b89e-c58f2a8dd728.json",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "checks": [
+        {
+          "callId": "71f9cc6b-60f8-4911-b0f0-2bbc61e2b613",
+          "agentId": "maya",
+          "phase": "inquire",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 4990
+        },
+        {
+          "callId": "0f4665fb-e642-48f5-897c-ec7924985e85",
+          "agentId": "leo",
+          "phase": "respond",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 13978
+        },
+        {
+          "callId": "585b98e1-b276-487a-8b02-6792abda661c",
+          "agentId": "maya",
+          "phase": "inquire",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 5761
+        },
+        {
+          "callId": "7001378f-462a-4876-b2b3-458f26b7f6a1",
+          "agentId": "amina",
+          "phase": "respond",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 4588
+        },
+        {
+          "callId": "7d82f176-f886-437e-8c51-7b21646a9a01",
+          "agentId": "maya",
+          "phase": "inquire",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 4497
+        },
+        {
+          "callId": "c6f119a7-2ab8-4dd8-9dad-17b9457fca2b",
+          "agentId": "oscar",
+          "phase": "respond",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 10450
+        }
+      ]
+    },
+    {
+      "path": "docs/evidence/live-collaborator-6b4703af-8598-41ca-a417-562659d9ca40.json",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "checks": [
+        {
+          "callId": "0325adf3-63bb-4909-b6ee-7370fb3de416",
+          "agentId": "leo",
+          "phase": "inquire",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 8519
+        },
+        {
+          "callId": "598512a9-b554-466c-97bd-74e976bcb12e",
+          "agentId": "amina",
+          "phase": "respond",
+          "scopedInputHashMatches": true,
+          "signatureValid": true,
+          "durationMs": 9103
+        }
+      ]
+    }
+  ]
+}

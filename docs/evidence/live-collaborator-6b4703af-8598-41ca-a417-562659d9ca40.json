@@ -1,0 +1,171 @@
+{
+  "checkedAt": "2026-10-22T19:10:40.370Z",
+  "scenario": "collaborator",
+  "request": {
+    "ownerId": "leo",
+    "kind": "collaborator",
+    "title": "Live test: frontend help for a payment demo",
+    "details": "I want to improve the accessibility of an agent-payment demo. Need a React collaborator for two hours this week; no ongoing maintenance. Please suggest a narrow deliverable and clarify the scope if necessary. Final commitment requires both owners to approve.",
+    "topics": [
+      "frontend",
+      "react"
+    ],
+    "mode": "live",
+    "idempotencyKey": "c8e9987d-672f-4d49-b1f1-f3d90cf059eb",
+    "sourceUrl": "",
+    "authorized": true,
+    "id": "6b4703af-8598-41ca-a417-562659d9ca40",
+    "createdAt": "2026-10-22T19:10:22.319Z",
+    "status": "completed"
+  },
+  "model": {
+    "configured": true,
+    "name": "grok-4.7-build-fast"
+  },
+  "sessions": [
+    {
+      "id": "f95a28e4-e44d-4464-a556-c64a8929cd4a",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "ownerId": "leo",
+      "candidateId": "amina",
+      "createdAt": "2026-10-22T19:10:22.322Z",
+      "status": "awaiting_approval",
+      "turns": 2,
+      "approvals": {
+        "leo": "pending",
+        "amina": "pending"
+      },
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "summary": "This looks like a good fit for a short, scoped collaboration. My fixture evidence is a synthetic React UI for agent collaboration, and I work on accessible React interfaces for agent workflows—not independently verified production payments work. I’d suggest one narrow deliverable: a two-hour accessibility pass on the existing agent-payment demo’s authorization and receipt screens (labels, keyboard focus, and screen-reader names only). Scope limit up front: no new payment features, no backend changes, and no ongoing maintenance. I’m generally available for about two hours this week, but a specific time is not confirmed and any real commitment still needs both owners’ approval."
+    }
+  ],
+  "events": [
+    {
+      "id": "536ba290-8e7e-4bdc-a229-543b5a282ecb",
+      "seq": 48,
+      "at": "2026-10-22T19:10:22.323Z",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "sessionId": "f95a28e4-e44d-4464-a556-c64a8929cd4a",
+      "from": "leo",
+      "to": "amina",
+      "type": "executing",
+      "message": "Leo's agent is processing its own context.",
+      "mode": "live",
+      "signature": "bVhGIs6f5uaCATQNreP1wLlVnCcbtWduW5yc8PzyeGwxoTTboxdqby63X74Cr5ZMkC6JNJXbMj39MVCcz7w2Ag=="
+    },
+    {
+      "id": "db71b93d-584d-457b-b7cd-f84d81a2fd46",
+      "seq": 49,
+      "at": "2026-10-22T19:10:30.843Z",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "sessionId": "f95a28e4-e44d-4464-a556-c64a8929cd4a",
+      "from": "leo",
+      "to": "amina",
+      "type": "inquiry",
+      "message": "Hi Amina — I’m reaching out for Leo, a payments builder. His sandbox fixture is a testnet agent-payment demo focused on authorization and receipts (synthetic fixture only, not independently verified work). He’s looking for a React collaborator for about two hours this week to improve the demo’s accessibility, with no ongoing maintenance, and any real commitment would still need both owners’ approval. Could you say whether short, scoped React accessibility work like that fits you, and suggest one narrow deliverable plus any scope limits you’d want up front?",
+      "reason": "Asking Amina about a short React accessibility collaboration on Leo’s fixture payment demo.",
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "0325adf3-63bb-4909-b6ee-7370fb3de416",
+        "providerId": "809f9041-bbf2-9908-9a47-fd0bcde92202",
+        "startedAt": "2026-10-22T19:10:22.324Z",
+        "durationMs": 8519,
+        "inputHash": "9207eb73ace2a60b4a93f7586c396905ce06826bc9b575e811fb8bc3bb77dce6",
+        "agentId": "leo",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 828,
+        "total_tokens": 2711,
+        "prompt_tokens": 1883,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 683
+        }
+      },
+      "signature": "Igmwm6p5vO8gy425CtZQ9sj6M2n/ySDudyZwykQicEHirSICm4knlLb1b/h0cOaIB2PwYiNT1GbWP1IcsU7zDQ=="
+    },
+    {
+      "id": "fa0f57e8-a8b4-4431-9692-61f6f60b9505",
+      "seq": 50,
+      "at": "2026-10-22T19:10:30.845Z",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "sessionId": "f95a28e4-e44d-4464-a556-c64a8929cd4a",
+      "from": "amina",
+      "to": "leo",
+      "type": "executing",
+      "message": "Amina's agent is processing its own context.",
+      "mode": "live",
+      "signature": "kWXmpow2tnvO9DJyw511+z1EQ4Y94Z5AxUkTwVelA2HtyYi2mM8Rx9Fdob48+Ziyr8G4uSK8t7s2/MtmpmqNAg=="
+    },
+    {
+      "id": "7af1b62f-c5d6-4416-9100-a01ece5f36ce",
+      "seq": 51,
+      "at": "2026-10-22T19:10:39.949Z",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "sessionId": "f95a28e4-e44d-4464-a556-c64a8929cd4a",
+      "from": "amina",
+      "to": "leo",
+      "type": "proposal",
+      "message": "This looks like a good fit for a short, scoped collaboration. My fixture evidence is a synthetic React UI for agent collaboration, and I work on accessible React interfaces for agent workflows—not independently verified production payments work. I’d suggest one narrow deliverable: a two-hour accessibility pass on the existing agent-payment demo’s authorization and receipt screens (labels, keyboard focus, and screen-reader names only). Scope limit up front: no new payment features, no backend changes, and no ongoing maintenance. I’m generally available for about two hours this week, but a specific time is not confirmed and any real commitment still needs both owners’ approval.",
+      "reason": "Skills, two-hour goal, and accessibility focus match; proposing a narrow scoped pass for owner review without confirming a time.",
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "598512a9-b554-466c-97bd-74e976bcb12e",
+        "providerId": "9e38048b-ad32-932d-a881-fb1f227e45a8",
+        "startedAt": "2026-10-22T19:10:30.846Z",
+        "durationMs": 9103,
+        "inputHash": "c50e324ac0d5ede17404678ecb6d0a17fe436c45a3aa062109bda490ae1bf5ed",
+        "agentId": "amina",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 923,
+        "total_tokens": 2931,
+        "prompt_tokens": 2008,
+        "prompt_tokens_details": {
+          "cached_tokens": 1536
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 748
+        }
+      },
+      "signature": "DMVASrUCXTYKaUw9YPHx46UK/b6zNFue4/oyfP156i71eLsj1wNzP28ybCp7S7HX3e/TexESmx29rElCVeN6BQ=="
+    },
+    {
+      "id": "61fecd51-8275-4d2b-a8b8-1e3affa2b509",
+      "seq": 52,
+      "at": "2026-10-22T19:10:39.951Z",
+      "requestId": "6b4703af-8598-41ca-a417-562659d9ca40",
+      "sessionId": "f95a28e4-e44d-4464-a556-c64a8929cd4a",
+      "type": "awaiting_approval",
+      "message": "Outcome: awaiting_approval. Both owners must approve the exact proposal.",
+      "mode": "live"
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "calls": 2,
+    "agents": [
+      "leo",
+      "amina"
+    ],
+    "providerReportedTokens": 5642,
+    "unknownUsageCalls": 0,
+    "externalCommunityWrites": 0
+  }
+}

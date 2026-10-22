@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.data/
+private-data/
+*.log
+cursor-credits-claimed.png

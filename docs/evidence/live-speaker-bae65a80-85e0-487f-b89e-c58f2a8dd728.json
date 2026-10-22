@@ -1,0 +1,441 @@
+{
+  "checkedAt": "2026-10-22T19:08:08.758Z",
+  "scenario": "speaker",
+  "request": {
+    "ownerId": "maya",
+    "kind": "speaker",
+    "title": "Live test: a practical agent payments speaker",
+    "details": "London builders meetup, Thursday 29 October 2026, 18:30 London time. A 20-minute practical talk on authorization and payment receipts, then 10 minutes of questions. We need a testnet demo, not investment advice. Final date and participation require both owners to approve.",
+    "topics": [
+      "payments",
+      "agents"
+    ],
+    "mode": "live",
+    "idempotencyKey": "7ff1c2ff-ec79-474d-81ff-b3535839418f",
+    "sourceUrl": "",
+    "authorized": true,
+    "id": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+    "createdAt": "2026-10-22T19:07:22.470Z",
+    "status": "completed"
+  },
+  "model": {
+    "configured": true,
+    "name": "grok-4.7-build-fast"
+  },
+  "sessions": [
+    {
+      "id": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "ownerId": "maya",
+      "candidateId": "leo",
+      "createdAt": "2026-10-22T19:07:22.471Z",
+      "status": "awaiting_approval",
+      "turns": 2,
+      "approvals": {
+        "maya": "pending",
+        "leo": "pending"
+      },
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "summary": "Maya, this slot fits what I can actually offer: a practical 20-minute talk on authorization and payment receipts, plus questions, using the synthetic testnet agent-payment fixture I already have — not investment advice and not independently verified production work. I’m generally available and would like to share that with London builders and meet frontend collaborators. I can’t confirm Thursday 29 October 2026 at 18:30 myself; the date and my participation still need both owners’ approval."
+    },
+    {
+      "id": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "ownerId": "maya",
+      "candidateId": "amina",
+      "createdAt": "2026-10-22T19:07:41.443Z",
+      "status": "declined",
+      "turns": 2,
+      "approvals": {
+        "maya": "pending",
+        "amina": "pending"
+      },
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "summary": "Thanks for thinking of me, Maya. I’m a frontend engineer focused on accessible React interfaces for agent workflows, and my only related item is a synthetic fixture dashboard for agent collaboration—not hands-on work on authorization, payment receipts, or a testnet payments demo. A 20-minute practical payments talk would be outside my expertise, so I should pass on this slot."
+    },
+    {
+      "id": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "ownerId": "maya",
+      "candidateId": "oscar",
+      "createdAt": "2026-10-22T19:07:51.797Z",
+      "status": "declined",
+      "turns": 2,
+      "approvals": {
+        "maya": "pending",
+        "oscar": "pending"
+      },
+      "evidenceIds": [
+        "oscar-note"
+      ],
+      "summary": "Thanks for the clear brief, Maya. I research payment authorization, but only as a fictional fixture note, and I do not have evidence of a working testnet demo I could show. I am unavailable and not taking new meetings this week, so I should decline this speaker slot rather than leave the date or a demo looking confirmed."
+    }
+  ],
+  "events": [
+    {
+      "id": "d46559d6-9cc7-436f-bcb3-1826d5ce7b00",
+      "seq": 28,
+      "at": "2026-10-22T19:07:22.472Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "maya",
+      "to": "leo",
+      "type": "executing",
+      "message": "Maya's agent is processing its own context.",
+      "mode": "live",
+      "signature": "v0Shvgq06sig25lTgpSKg02HkH7LTLs7qEup1adQPKr18lvBF2sZU9WY35pwYu7j9956a5ST7g5VEAdZHnf5Bw=="
+    },
+    {
+      "id": "5fabb1ba-c5c1-4cab-b017-9651199f21b9",
+      "seq": 29,
+      "at": "2026-10-22T19:07:27.462Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "maya",
+      "to": "leo",
+      "type": "inquiry",
+      "message": "Leo, Maya organises small London builder meetups and is looking for a practical speaker on agent payments. The slot is Thursday 29 October 2026 at 18:30 London time: a 20-minute talk on authorization and payment receipts, with a working testnet demo (not investment advice), then 10 minutes of questions. Would you be interested and able to do that, and do you already have a testnet demo you could show? Final date and participation would still need both owners to approve.",
+      "reason": "Inquiry to the payments builder about the meetup speaker request, without treating Maya as the candidate.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "71f9cc6b-60f8-4911-b0f0-2bbc61e2b613",
+        "providerId": "44e69a68-cb3b-9999-8293-6de2c8c09dcc",
+        "startedAt": "2026-10-22T19:07:22.472Z",
+        "durationMs": 4990,
+        "inputHash": "9999e95f6db61b04406337e9af4d2618a93082416fc427b0f2e4f08d8d92b812",
+        "agentId": "maya",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 493,
+        "total_tokens": 2273,
+        "prompt_tokens": 1780,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 353
+        }
+      },
+      "signature": "yOKo7icP6S3oREnqh6ZMDyv0+BSYFATkUULvGdbTEUeoMktrosyymkVceIZZgpUzhQqUaJWXcW9wv8352AsWBg=="
+    },
+    {
+      "id": "acd0e5ad-60c4-4d63-aed7-b6eccd8c5716",
+      "seq": 30,
+      "at": "2026-10-22T19:07:27.463Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "leo",
+      "to": "maya",
+      "type": "executing",
+      "message": "Leo's agent is processing its own context.",
+      "mode": "live",
+      "signature": "iI4uuCI9Hy5l+s0Rcg7ocZOzIEVAVpOCuv9N3iox2gjJ/R9ILgyY3AuJLNDFoRZVDjChMCUs91MJ/3131OYSBw=="
+    },
+    {
+      "id": "6b649e74-fd75-4db9-99d8-93e77bec0219",
+      "seq": 31,
+      "at": "2026-10-22T19:07:41.442Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "from": "leo",
+      "to": "maya",
+      "type": "proposal",
+      "message": "Maya, this slot fits what I can actually offer: a practical 20-minute talk on authorization and payment receipts, plus questions, using the synthetic testnet agent-payment fixture I already have — not investment advice and not independently verified production work. I’m generally available and would like to share that with London builders and meet frontend collaborators. I can’t confirm Thursday 29 October 2026 at 18:30 myself; the date and my participation still need both owners’ approval.",
+      "reason": "Topic, demo, and goals match; specific date left to owner approval.",
+      "evidenceIds": [
+        "leo-demo"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "0f4665fb-e642-48f5-897c-ec7924985e85",
+        "providerId": "dbb0bb63-e525-9e1b-bc54-4949f2eba699",
+        "startedAt": "2026-10-22T19:07:27.464Z",
+        "durationMs": 13978,
+        "inputHash": "f0a59e3c7b389bd2986395b51332d24b239172fcc59e3fdf6455b8f7736042bb",
+        "agentId": "leo",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 1403,
+        "total_tokens": 3361,
+        "prompt_tokens": 1958,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 1270
+        }
+      },
+      "signature": "ujEHvjkPMUihTDjbtMSYK3WEo3qN6OOhfd9+3e/0xu80iQ25jIWJOryORR3WBzdZV/pBdtFfCIhqAijmhyHYAg=="
+    },
+    {
+      "id": "f0be3ae4-88a1-4943-b277-61f024db10b6",
+      "seq": 32,
+      "at": "2026-10-22T19:07:41.443Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "5598f4df-ed58-4e6e-9ebc-b22b2bbbfb97",
+      "type": "awaiting_approval",
+      "message": "Outcome: awaiting_approval. Both owners must approve the exact proposal.",
+      "mode": "live"
+    },
+    {
+      "id": "ea1bba66-98cf-4aa7-a246-14c1deb1273f",
+      "seq": 33,
+      "at": "2026-10-22T19:07:41.444Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "maya",
+      "to": "amina",
+      "type": "executing",
+      "message": "Maya's agent is processing its own context.",
+      "mode": "live",
+      "signature": "MwhcUM+ULRH6Md2Mfse5D67DtQ1LU+Hpv5S82dHaQwSzy5TEgfh3h5pwYwqIKrOX/JDd2ojf8QDWmGEu7Nq7Aw=="
+    },
+    {
+      "id": "faa1c402-66f7-419d-bdbe-ea085aa4b806",
+      "seq": 34,
+      "at": "2026-10-22T19:07:47.205Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "maya",
+      "to": "amina",
+      "type": "inquiry",
+      "message": "Hi Amina — I’m Maya, and I organise small London builder meetups. I’m looking for a practical speaker for Thursday 29 October 2026 at 18:30 London time: a 20-minute talk on authorization and payment receipts for agents, with a working testnet demo (not investment advice), then about 10 minutes of questions. Final date and participation would still need both owners to approve. Do you have hands-on experience with agent payments and a demo you could show, and would you be interested in this slot?",
+      "reason": "Inquiry to Amina about the supplied speaker request; no candidate evaluation or commitments.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "585b98e1-b276-487a-8b02-6792abda661c",
+        "providerId": "87df64f3-df6f-9972-8b32-c195c14b921c",
+        "startedAt": "2026-10-22T19:07:41.444Z",
+        "durationMs": 5761,
+        "inputHash": "988c4e6bd9b1249b7d317e3dcbb622effb1d025783b914381ae6accba9ae0ad6",
+        "agentId": "maya",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 615,
+        "total_tokens": 2396,
+        "prompt_tokens": 1781,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 472
+        }
+      },
+      "signature": "uzpDTnFl32R4/1lPZiFKAFFAhh9z1OX+qtHYB0iOlg2xySZVoNDdIJ/S5Tfo2+uyr1k8bZ1DHc75q0rTgad1DA=="
+    },
+    {
+      "id": "8fa81cb8-bdbc-4752-88cb-13c38f6bef60",
+      "seq": 35,
+      "at": "2026-10-22T19:07:47.206Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "amina",
+      "to": "maya",
+      "type": "executing",
+      "message": "Amina's agent is processing its own context.",
+      "mode": "live",
+      "signature": "GrXDlD1HnwiM3tkLMCXUVeUxexUwyINrt1Z1VdBfY2Dos+iAUL6oms9EK/EAPhR1Q2XPunQ2eu76xe1ijfssBw=="
+    },
+    {
+      "id": "5567d8f0-d1b4-48d7-bb7f-a31108ae28f0",
+      "seq": 36,
+      "at": "2026-10-22T19:07:51.795Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "from": "amina",
+      "to": "maya",
+      "type": "decline",
+      "message": "Thanks for thinking of me, Maya. I’m a frontend engineer focused on accessible React interfaces for agent workflows, and my only related item is a synthetic fixture dashboard for agent collaboration—not hands-on work on authorization, payment receipts, or a testnet payments demo. A 20-minute practical payments talk would be outside my expertise, so I should pass on this slot.",
+      "reason": "Primary topic is agent payments and a testnet demo; Amina’s fixture evidence and skills are frontend React agent UI only.",
+      "evidenceIds": [
+        "amina-ui"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "7001378f-462a-4876-b2b3-458f26b7f6a1",
+        "providerId": "a550f69b-8bfd-9518-9aa3-2384d4c1446f",
+        "startedAt": "2026-10-22T19:07:47.207Z",
+        "durationMs": 4588,
+        "inputHash": "97d1d99c999b572050254f735023de50ebb0350bf7ad183115b8cfdcc7d85066",
+        "agentId": "amina",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 491,
+        "total_tokens": 2445,
+        "prompt_tokens": 1954,
+        "prompt_tokens_details": {
+          "cached_tokens": 1280
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 369
+        }
+      },
+      "signature": "zYrmFq20TlzuYRovq42By2f8tpL0OApSCjUF0eZnRuwUSFnin3G4i/ROvWiTAvPB0W0sRysFvwbJg+Xq+f+1CA=="
+    },
+    {
+      "id": "158eeba5-023f-4676-9b8f-34a711a26ce1",
+      "seq": 37,
+      "at": "2026-10-22T19:07:51.796Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "d5f8835e-7e47-4e5c-83a2-65a1d4df5b94",
+      "type": "declined",
+      "message": "Outcome: declined. No introduction created.",
+      "mode": "live"
+    },
+    {
+      "id": "5e28724f-a875-4fdd-ba82-5b00f4e88b1a",
+      "seq": 38,
+      "at": "2026-10-22T19:07:51.797Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "maya",
+      "to": "oscar",
+      "type": "executing",
+      "message": "Maya's agent is processing its own context.",
+      "mode": "live",
+      "signature": "xRaDXmMi+x7yOgHx+liwwRS9kfdoVXMbmvzrVIR5bvQFPDGqohYIQFaTKmuu1j9+/O7ZYKrbdpqLOwsS10u0DQ=="
+    },
+    {
+      "id": "54c9f794-5139-4469-b3d8-5c62c3585f57",
+      "seq": 39,
+      "at": "2026-10-22T19:07:56.294Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "maya",
+      "to": "oscar",
+      "type": "inquiry",
+      "message": "Oscar, I’m looking for a speaker for a small London builders meetup on Thursday 29 October 2026 at 18:30 London time: a 20-minute practical talk on authorization and payment receipts, then 10 minutes of questions, with a testnet demo rather than investment advice. Final date and participation would still need both owners to approve. Would you be open to that format, and do you have a working testnet demo you could show?",
+      "reason": "Inquiring whether Oscar can give the requested practical agent-payments talk and demo.",
+      "evidenceIds": [],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "7d82f176-f886-437e-8c51-7b21646a9a01",
+        "providerId": "e541a819-f403-9014-9eca-57f8c73fd945",
+        "startedAt": "2026-10-22T19:07:51.797Z",
+        "durationMs": 4497,
+        "inputHash": "76d246d4a6677c953f1818c6271d52921c3de1140f9819dcf415f383e17ad72a",
+        "agentId": "maya",
+        "phase": "inquire"
+      },
+      "usage": {
+        "completion_tokens": 364,
+        "total_tokens": 2144,
+        "prompt_tokens": 1780,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 238
+        }
+      },
+      "signature": "z7TgF5YnipGjAiybo4e6RRHr1fzc+BHywHfdTh8IKry7nH401r+bl20h5YW1MU8E5eL2HflKKdjMTNzNq/PLCA=="
+    },
+    {
+      "id": "6ea8420c-56ce-4625-b3d5-f79b906b4817",
+      "seq": 40,
+      "at": "2026-10-22T19:07:56.296Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "oscar",
+      "to": "maya",
+      "type": "executing",
+      "message": "Oscar's agent is processing its own context.",
+      "mode": "live",
+      "signature": "5U5m5Z59fsEx0oGmwefRtHB132pnQQI+EXjd/8oU8mWgrfRtBXarnjZh9TFAztJGTmh6oHAg4cGG5WftxXY6BQ=="
+    },
+    {
+      "id": "37a56297-9aa0-4837-b157-e4fbbece60a9",
+      "seq": 41,
+      "at": "2026-10-22T19:08:06.747Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "from": "oscar",
+      "to": "maya",
+      "type": "decline",
+      "message": "Thanks for the clear brief, Maya. I research payment authorization, but only as a fictional fixture note, and I do not have evidence of a working testnet demo I could show. I am unavailable and not taking new meetings this week, so I should decline this speaker slot rather than leave the date or a demo looking confirmed.",
+      "reason": "Unavailable this week, with no fixture evidence of a testnet demo to commit.",
+      "evidenceIds": [
+        "oscar-note"
+      ],
+      "mode": "live",
+      "model": "grok-4.7-build-fast",
+      "reportedModel": "grok-4.7-build-fast",
+      "call": {
+        "id": "c6f119a7-2ab8-4dd8-9dad-17b9457fca2b",
+        "providerId": "3c4bd86f-5a6c-95d6-8729-a8659ba1e943",
+        "startedAt": "2026-10-22T19:07:56.297Z",
+        "durationMs": 10450,
+        "inputHash": "dfedd0b939b90252914821f2c5f466b201fda3f8ede1d821dffcb87a968a6be1",
+        "agentId": "oscar",
+        "phase": "respond"
+      },
+      "usage": {
+        "completion_tokens": 1096,
+        "total_tokens": 3029,
+        "prompt_tokens": 1933,
+        "prompt_tokens_details": {
+          "cached_tokens": 1152
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 992
+        }
+      },
+      "signature": "3GI5CcDg2yy4ntsbGplgNfRWWZHz1WZ58AQhctKq43PclYtH6425g2PaLThjAFXZZ/+M0nRdvA8vUqXuF0z9CA=="
+    },
+    {
+      "id": "0b1fcf05-7286-441e-8033-165b5886b8b6",
+      "seq": 42,
+      "at": "2026-10-22T19:08:06.749Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "sessionId": "8beccc11-0430-40e5-9330-5a92ac4ee2b6",
+      "type": "declined",
+      "message": "Outcome: declined. No introduction created.",
+      "mode": "live"
+    },
+    {
+      "id": "a7aa332d-00ee-4290-aa8d-fccfb8f02ca1",
+      "seq": 43,
+      "at": "2026-10-22T19:08:06.750Z",
+      "requestId": "bae65a80-85e0-487f-b89e-c58f2a8dd728",
+      "from": "jin",
+      "to": "jin",
+      "type": "digest",
+      "message": "Saved “Live test: a practical agent payments speaker” for Jin. Information-only preference respected; no outreach.",
+      "mode": "live",
+      "signature": "RqW+UoDRlD9RXnxSNPXAkjo+Fdk1MRKc4XQ0QaReo0uZNK1DVFVFCX8f9EmKmluf+hh5UpPk7y5BGqwdQAQ5BQ=="
+    }
+  ],
+  "summary": {
+    "status": "completed",
+    "calls": 6,
+    "agents": [
+      "maya",
+      "leo",
+      "amina",
+      "oscar"
+    ],
+    "providerReportedTokens": 15648,
+    "unknownUsageCalls": 0,
+    "externalCommunityWrites": 0
+  }
+}
