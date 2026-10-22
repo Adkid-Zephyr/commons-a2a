@@ -1,5 +1,24 @@
 # Validation — 2026-10-22
 
+## Final demo readiness update
+
+- Added repeatable synthetic `demo` requests that preserve history and avoid
+  contact-cooldown dead ends. Ordinary requests still apply cooldown.
+- Added initiating-owner `clarify` requests for incomplete/failed exchanges:
+  target the original candidate, preserve history, start fresh approvals,
+  at most two linked follow-up generations, blocked for all source replay.
+- **25 automated tests passed** and production build passed for this backend batch.
+- `scripts/demo-acceptance.mjs` passed with the real Grok route: two independent
+  calls, a personal attention decision, one-approval handoff blocked, two local
+  fixture approvals creating a human room, then a local test message.
+  Evidence: `evidence/demo-acceptance-a75fc9eb-d517-4922-8de3-7a2aae8bf37e.json`.
+- Live follow-up acceptance also passed: two real calls produced a new proposal
+  for the original candidate, retained the prior failure, and reset both approvals.
+  Evidence: `evidence/followup-acceptance-391ac3bb-2af4-402a-8cdc-a3121514078a.json`.
+- Demo service was found stopped during inspection and restarted from the built
+  production app on loopback port 3402. Final frontend integration remains a
+  separate acceptance step owned with the frontend collaborator.
+
 ## Attention brief update
 
 - Added a read-only, per-member attention projection without extra model calls:

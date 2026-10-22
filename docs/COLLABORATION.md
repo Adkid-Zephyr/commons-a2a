@@ -28,7 +28,28 @@ matching Origin header; no external community writes exist.
 | `POST /api?dataset=<id>` | Existing action body: `request`, `member`, `approve`, `message` |
 | `GET /api?dataset=<id>&view=attention&ownerId=<member-id>` | Compact personal attention brief; default live mode, top 5 items |
 
-### Attention brief: the primary inbox surface
+### Final demo endpoints (additive; existing endpoints unchanged)
+
+`POST /api?dataset=synthetic` with
+`{ action: "demo", scenario: "speaker" | "collaborator", mode: "live", idempotencyKey }`
+starts a repeatable, clearly marked synthetic-member demo. It returns the request
+immediately; poll existing state/events. It bypasses contact cooldown only for
+that explicit fixture run, preserves previous runs, and excludes imported members.
+Source replay cannot use this endpoint. This is the recommended demo CTA.
+
+For an incomplete/failed exchange, its initiating owner can submit
+`{ action: "clarify", sessionId, ownerId, details, idempotencyKey }`.
+The response is a new linked request with `parentSessionId`, targeting only the
+original candidate. Existing history stays intact; approvals start fresh. At most
+two follow-up generations are allowed. Source replay, outsiders and already
+resolved/declined proposals cannot use this path. Same-operation retries reuse
+the same idempotency key. The old session has `followupRequestId` for navigation.
+
+The attention brief returns `clarify_request` only for eligible request owners;
+open a short input then call the endpoint above. Source replay is inspect-only.
+Superseded incomplete items disappear from the brief but remain in full history.
+
+### Attention brief details
 
 Use the attention view for the simple user-facing inbox; keep the graph and full
 event stream available as detail. This view makes no extra model calls and never
