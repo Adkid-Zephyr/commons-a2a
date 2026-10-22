@@ -57,7 +57,12 @@ are held by this operator's server, not independently owned remote devices.
 ## Organizer data and Discord
 
 The Track 2 page offers a Hack Collective dataset, but the dataset itself has
-not been supplied. No Discord server/channel has been identified or connected.
+not been supplied. A bounded read-only snapshot of six messages from the event's
+Discord `#team-up` channel has been imported into a separate replay database.
+Open `/?dataset=discord-replay` or use the dataset selector. Names and identifying
+details are removed from model context; source claims remain unverified, current
+availability unknown, and approvals/human handoffs disabled. See
+[source replay instructions](docs/SOURCE_REPLAY.md).
 
 Use **Members → Add consenting member** to enter authorized, redacted records.
 Use the approved-context field to paste the member's context, and add explicit
@@ -66,8 +71,11 @@ member-provided, not independently verified.
 
 For a Discord request, paste authorized, redacted message text into the request
 and add its reference under **Source & execution**. A pasted link is not fetched.
-There is no Discord token, integration, posting, reaction, DM or invitation code.
-All test messages and approvals stay in the local application.
+An official Bot API snapshot reader is available in `scripts/discord-snapshot.mjs`,
+but no Bot token has been supplied or tested. It only GETs one allowlisted channel
+history page. There is no posting, reaction, DM or invitation code.
+All Agent messages stay in the local application. Source replay never approves
+on behalf of real people. Original fixture approvals remain separate.
 
 `.data/`, `private-data/` and `.env*` are ignored by Git. Do not commit real member
 records, emails or credentials. The operator view exposes approved test profiles

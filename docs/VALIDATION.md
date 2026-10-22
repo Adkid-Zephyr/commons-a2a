@@ -1,5 +1,26 @@
 # Validation — 2026-10-22
 
+## Real Discord source update
+
+- Read six relevant visible `#team-up` messages through the existing Chrome
+  session. Stored the bounded raw snapshot privately; reviewed and anonymized
+  six source profiles plus one recruitment request before model use.
+- Separate `discord-replay` SQLite database and UI dataset selector; synthetic
+  fixture data/history remains unchanged. No Discord credential was extracted.
+- Run `81d22572-e33a-4185-843f-3ca515423c5b`: **passed**, 12 real model calls,
+  three four-turn exchanges, all ending `needs_info` because the source recruitment
+  message lacks project/role/time details and current owner consent is unknown.
+  Zero human handoffs; zero external community writes.
+- Raw source, reviewed bundle and detailed model output remain under ignored
+  `private-data/` / `.data/`. They are not published as public test fixtures.
+- **18 automated tests passed**; production build passed. Added tests for source
+  provenance, forced unknown availability, approval blocking, dataset separation,
+  Discord GET-only allowlisting, bot/ephemeral filtering, 403/429 and missing content.
+- Official Bot API adapter is prepared but NOT live-verified: no Bot token supplied.
+- Organizer dataset is NOT acquired: brief offers it on request; no direct member
+  dataset link found on the page/data-kit, and Discord `dataset` search found no results.
+  This bounded search does not establish absence elsewhere. See SOURCE_REPLAY.md.
+
 ## Live-model update
 
 - Connected the existing loopback Quotio proxy, `grok-4.7-build-fast`; requested
@@ -56,8 +77,9 @@ records and are not silently rewritten.
 
 ## Not yet verified / not implemented
 
-- Live LLM workflow validated only with synthetic profiles, not real members.
-- Organizer member dataset and Discord read: no dataset/channel supplied.
+- Live LLM workflow validated with synthetic fixtures and anonymized historical
+  Discord messages; real members have not authorized representation.
+- Organizer member dataset is still missing; Bot API credentials are still missing.
 - Member evidence authenticity and real-person willingness.
 - Supabase, production authentication, external A2A interoperability,
   recurring scheduling, a month of operation, cloud deployment.

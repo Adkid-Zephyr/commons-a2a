@@ -7,3 +7,14 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Project collaboration
+
+- The user authorizes a Git commit and push after each substantial, verified update
+  to this project. Do not wait for another push request. Report the branch and commit.
+- Before pushing, fetch the current remote state, inspect the diff and run the
+  relevant checks. Do not force-push or overwrite collaborators' changes.
+- A teammate is working on the frontend. Keep unrelated frontend work intact;
+  describe backend/API changes in docs/COLLABORATION.md so frontend work can follow.
+- Never commit model/Bot credentials, .env.local, .data/, private-data/, raw Discord
+  messages, real member records or source-derived screenshots. Keep replay data local.

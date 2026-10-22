@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse, after } from 'next/server';
 // @ts-ignore local runtime modules are validated with executable tests
-import { engine } from '../../lib/runtime.mjs';
+import { engine, datasets } from '../../lib/runtime.mjs';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 
@@ -11,7 +11,7 @@ function localOnly(req:NextRequest){
   if(req.method!=='GET'&&origin!==`http://${host}`)throw new Error('Same-origin request required');
 }
 export async function GET(req:NextRequest){
-  try {localOnly(req);const id=req.nextUrl.searchParams.get('profile');return NextResponse.json(id?engine().profile(id):engine().snapshot(),{headers:{'Cache-Control':'no-store'}});}
+  try {localOnly(req);const id=req.nextUrl.searchParams.get('profile');const app=engine(req.nextUrl.searchParams.get('dataset')??'synthetic');return NextResponse.json(id?app.profile(id):{...app.snapshot(),datasets:datasets()},{headers:{'Cache-Control':'no-store'}});}
   catch(e:any){return NextResponse.json({error:e.message},{status:400});}
 }
 export async function POST(req:NextRequest){
@@ -19,7 +19,8 @@ export async function POST(req:NextRequest){
     localOnly(req);
     if(Number(req.headers.get('content-length')??0)>100000)throw new Error('Input too large');
     const text=await req.text();if(text.length>100000)throw new Error('Input too large');
-    const {action,...body}=JSON.parse(text);const app=engine();
+    const {action,...body}=JSON.parse(text);const app=engine(req.nextUrl.searchParams.get('dataset')??'synthetic');
+    if(app.state.dataset!=='synthetic'&&['member','approve','message'].includes(action))throw new Error('Source replay is immutable; real owner actions are disabled.');
     if(action==='member')return NextResponse.json(body.id?app.updateMember(body.id,body.profile):app.addMember(body.profile));
     if(action==='request'){const r=app.createRequest(body.request);after(()=>app.run(r.id));return NextResponse.json(r);}
     if(action==='approve')return NextResponse.json(app.approve(body.sessionId,body.ownerId,body.decision));
